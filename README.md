@@ -1,7 +1,10 @@
 # UI/UX Master 🎨✨
 
-[![npm version](https://badge.fury.io/js/ui-ux-master.svg)](https://badge.fury.io/js/ui-ux-master)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://img.shields.io/npm/v/ui-ux-master?logo=npm&label=npm)](https://www.npmjs.com/package/ui-ux-master)
+[![npm downloads](https://img.shields.io/npm/dm/ui-ux-master?logo=npm&label=downloads)](https://www.npmjs.com/package/ui-ux-master)
+[![License: MIT](https://img.shields.io/npm/l/ui-ux-master)](https://github.com/Seance1723/UI-UX-Skills/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/Seance1723/UI-UX-Skills?style=flat&logo=github)](https://github.com/Seance1723/UI-UX-Skills/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/Seance1723/UI-UX-Skills?logo=github)](https://github.com/Seance1723/UI-UX-Skills/commits/main)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 **The ultimate UI/UX skill for AI coding agents.** Turn your AI into a Senior Product Designer, UX Researcher, and Frontend Lead in seconds.
@@ -107,6 +110,25 @@ Dry run:
 npx ui-ux-master install --project --dry-run
 ```
 
+## Package
+
+| Channel | Package | Purpose |
+|---|---|---|
+| npmjs | [`ui-ux-master`](https://www.npmjs.com/package/ui-ux-master) | Primary public package for normal installs and `npx` usage |
+| GitHub | [`Seance1723/UI-UX-Skills`](https://github.com/Seance1723/UI-UX-Skills) | Source, issues, releases, workflows, and open-source collaboration |
+| GitHub Packages | Optional scoped mirror | Use only if you want the repository Packages section to show a package |
+
+The canonical npm package is intentionally unscoped as `ui-ux-master`. GitHub Packages requires npm packages to be scoped, so a GitHub Packages mirror should use `@seance1723/ui-ux-master` while the public npmjs package remains `ui-ux-master`.
+
+Package entrypoints:
+
+- `ui-ux-master` - CLI installer and project integration tool.
+- `ui-ux-master-mcp` - local MCP server for tools, resources, and prompts.
+- `import { assets, bins, trigger } from "ui-ux-master"` - lightweight ESM metadata API.
+- `require("ui-ux-master")` - CommonJS metadata API.
+
+Package metadata is connected to GitHub through `repository`, `homepage`, `bugs`, license, funding, exports, engines, and npm provenance-ready publish settings in `package.json`.
+
 ## Supported Agents
 
 | Agent | Install target | Trigger |
@@ -194,6 +216,7 @@ ui-ux-master uninstall --project
 ## Package Structure
 
 - `SKILL.md` — main orchestration skill.
+- `index.mjs`, `index.cjs`, `index.d.ts` — ESM, CommonJS, and TypeScript metadata entrypoints.
 - `references/` — advanced playbooks and standards-aligned checklists.
 - `templates/` — briefs, audits, component specs, design-system specs, and project UI/UX memory template.
 - `agent-templates/` — Claude, Codex, Windsurf, Antigravity, Gemini, Cursor, and universal `/ui-ux-master` activation rules.
@@ -206,6 +229,20 @@ ui-ux-master uninstall --project
 - `scripts/validate_skill.py` — dependency-free release validator.
 - `scripts/build_deployment_zip.py` — clean deployment zip builder.
 - `tests/` — npm installer and package smoke tests.
+
+## GitHub Repository Setup
+
+Recommended About section:
+
+- Description: `Opt-in UI/UX master skill, CLI, and MCP server for AI coding agents. Accessibility, design systems, UX research, and frontend handoff in one workflow.`
+- Website: `https://www.npmjs.com/package/ui-ux-master`
+- Enable releases and issues. Enable discussions when you are ready to support community questions.
+
+Recommended GitHub topics:
+
+`ai-agent`, `ai-coding`, `ui-ux`, `ux-research`, `product-design`, `design-system`, `accessibility`, `wcag`, `mcp`, `model-context-protocol`, `claude-code`, `codex`, `windsurf`, `cursor`, `gemini-cli`, `npm-package`, `cli`, `prompt-engineering`, `frontend`, `llms-txt`
+
+For publishing and registry details, see `docs/package-publishing.md`.
 
 ## Validation and Testing
 
