@@ -4,6 +4,11 @@ This reference distills recurring website design methods from 100 globally recog
 
 Use this as a pattern library, not as permission to copy trademarks, logos, protected imagery, exact layouts, or proprietary assets. Agents should emulate the underlying methods: hierarchy, spacing, IA, interaction, trust signals, color logic, content strategy, and component behavior.
 
+
+## Methodology and Limitations
+
+This reference is a pattern synthesis for UI/UX inspiration, not a live audit of brand websites. Brand sites change over time. Use it to extract reusable methods such as hierarchy, spacing, flow, content structure, interaction behavior, and trust patterns. Do not present a brand-specific claim as current fact unless you verify the live site. Do not copy logos, exact trademark palettes, proprietary images, or pixel-level layouts unless the user owns the brand.
+
 ## Cross-Brand Findings
 
 ### Layout

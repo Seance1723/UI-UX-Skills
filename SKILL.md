@@ -25,11 +25,11 @@ Do not jump directly to visuals. Work in this order unless the user explicitly a
 
 1. Check for existing UI/UX memory and branding first: `.ui-ux-memory.md`, design tokens, CSS variables, theme files, existing components, fonts, color scheme, and representative screens.
 2. If memory exists, follow it as the design baseline. If no memory exists, create one for the application using `templates/ui-ux-memory.md` after inspecting existing branding or asking minimum high-value questions for a fresh project.
-3. Understand the product, users, goal, platform, constraints, and success metric.
-4. Define the UX model: audience, jobs-to-be-done, journeys, information architecture, flows, states, and content.
+3. Understand the product, users, goal, platform, constraints, evidence available, research confidence, and success metric.
+4. Define the UX model: audience, jobs-to-be-done, journeys, service touchpoints, information architecture, flows, states, and content.
 5. Select an appropriate top-brand design method when frontend polish is requested: Product Cinema, Utility Command Center, Editorial Brand World, Enterprise Trust Hub, Card-Based Discovery, Conversion Simplicity, Ecosystem Bundling, Premium Restraint, Playful Familiarity, or Technical Authority.
 6. Design the interface by extending the existing memory/brand baseline unless the user explicitly asks for a redesign or specific visual modification.
-7. Validate: consistency with memory, heuristics, WCAG, usability risks, edge cases, technical feasibility, and brand-fit.
+7. Validate: consistency with memory, research evidence, heuristics, WCAG, platform conventions, usability risks, i18n, ethics/privacy, edge cases, technical feasibility, metrics, and brand-fit.
 8. Update the application UI/UX memory with durable design decisions before handoff.
 9. Hand off: exact specs, tokens, component behavior, copy, states, QA checklist, implementation notes.
 
@@ -48,6 +48,33 @@ Use this skill for:
 Do not use this skill for pure backend work with no user-facing behavior, unless API decisions affect UX states, latency, data shape, validation, or error handling.
 
 ## Required Agent Behavior
+
+### Adaptive Brand and Memory Behavior
+
+Every time this skill is used on an application, first load and follow `references/ui-ux-memory-workflow.md`.
+
+The goal is consistency across the whole application. Do not create a new visual style each time.
+
+Required behavior:
+
+- Search for an application UI/UX memory file before designing: `.ui-ux-memory.md`, `docs/ui-ux-memory.md`, `docs/design/ui-ux-memory.md`, or `design/ui-ux-memory.md`.
+- If memory exists, read it and treat it as the source of truth for brand, colors, fonts, layout rhythm, components, states, copy voice, and responsive rules.
+- If memory does not exist, inspect existing branding first: CSS variables, theme files, Tailwind config, design tokens, global styles, components, pages, logo usage, fonts, and screenshots if available.
+- If existing branding is found, create `.ui-ux-memory.md` at the application root using `templates/ui-ux-memory.md` and fill it with discovered stable facts.
+- If the project is fresh and no branding exists, ask only a few high-value questions to understand what the user is building, who it is for, desired personality, colors/fonts/references, and platform. If the user does not answer, proceed with clear assumptions and record them in memory.
+- For later changes, read memory first, preserve the baseline, and update only the requested area unless the user asks for a full redesign/rebrand.
+- After stable UI decisions change, update the memory file so future work stays consistent.
+- Be adaptive: normalize weak/inconsistent branding into a clearer token system; extend strong branding without unnecessary change.
+
+Fresh project questions:
+
+1. What are you building and who is it for?
+2. What is the primary user action or success moment?
+3. What personality should it have: premium, playful, enterprise, technical, calm, bold, luxury, friendly, etc.?
+4. Any colors, fonts, logos, competitors, or references to use or avoid?
+5. Is it a landing page, SaaS app, dashboard, ecommerce, admin, mobile, or another type?
+
+Final response must mention whether UI/UX memory was read, created, updated, or unavailable.
 
 ### Ask Only High-Value Questions
 
@@ -89,7 +116,9 @@ Good: "Reduce hero to one H1, one 18px supporting sentence, one primary CTA, one
 
 Capture:
 
-- Product category and promise.
+- Project category and promise.
+- Existing UI/UX memory and branding baseline, if any.
+- Existing colors, fonts, tokens, components, and representative screens.
 - Primary user segments.
 - User jobs-to-be-done.
 - Business goals.
@@ -99,6 +128,22 @@ Capture:
 - Existing analytics or user feedback if available.
 
 Deliverable: short design brief.
+
+### Phase 1B: UX Research and Evidence
+
+When the task involves discovery, validation, audit, redesign, conversion, or an uncertain product direction, load and apply `references/ux-research-methods.md`.
+
+Define:
+
+- What is known from evidence.
+- What is assumed.
+- Research method needed, if any.
+- Evidence confidence: high, medium, or low.
+- Risks if the design proceeds without user evidence.
+
+Use interviews, surveys, analytics review, support-ticket synthesis, card sorting, tree testing, first-click testing, usability testing, accessibility testing, or heuristic review as appropriate. Do not invent user research; label synthetic personas and journeys as assumptions.
+
+Deliverable: research/evidence summary or research plan.
 
 ### Phase 2: UX Strategy
 
@@ -270,6 +315,36 @@ Produce implementation-ready handoff:
 
 Deliverable: handoff spec developers can implement without guessing.
 
+### Phase 11: Measurement and Quality Gates
+
+Before final handoff, load `references/ux-measurement-quality-gates.md` and define measurable acceptance criteria.
+
+Include where applicable:
+
+- Task success metric.
+- Error-rate or support-contact reduction target.
+- Funnel/conversion event names.
+- Accessibility gate: WCAG 2.2 AA plus keyboard and screen-reader smoke checks.
+- Responsive and platform acceptance criteria.
+- Performance perception/Core Web Vitals expectations for web.
+- Usability validation method: heuristic review, cognitive walkthrough, or user test.
+
+Deliverable: quality gate checklist and validation plan.
+
+### Phase 12: Ethics, Privacy, Inclusion, and Localization
+
+For any flow involving personal data, money, health, identity, children, AI, permissions, cancellation, ads, subscriptions, or persuasive design, load `references/ethical-inclusive-design.md`. For content-heavy or multi-locale products, load `references/content-design-and-i18n.md`.
+
+Check:
+
+- No dark patterns or manipulative consent.
+- Sensitive permissions are explained at the moment of need.
+- Users can cancel, undo, delete, export, or recover when appropriate.
+- Content is plain, inclusive, and localizable.
+- RTL, text expansion, dates, numbers, names, addresses, and currency are handled where relevant.
+
+Deliverable: ethics/privacy/i18n risk notes and fixes.
+
 ## Design Specialties Covered
 
 ### Product UX
@@ -294,6 +369,9 @@ Must include:
 - Chart clarity: title, timeframe, units, legends, annotations, comparison, no misleading axes.
 - Drill-down paths.
 - Export/share behavior.
+- Chart selection, axis integrity, units, freshness, uncertainty, annotations, and color-accessible legends.
+- Data-grid keyboard behavior, density controls, saved filters, and stale/partial data states.
+- Use `references/data-visualization-dashboard-ux.md` for analytics-heavy screens.
 
 ### Landing Page and Conversion UX
 
@@ -332,7 +410,9 @@ Must include:
 - Provide input masks/examples for formatted data.
 - Make submit state and errors obvious.
 
-### Mobile UX
+### Mobile and Platform-Specific UX
+
+Load `references/platform-guidelines.md` for web, iOS, Android/Material, Windows/desktop, kiosk, email, TV, or other platform-specific conventions.
 
 Must include:
 
@@ -409,7 +489,7 @@ Implementation rules:
 
 ## UI/UX Audit Framework
 
-When auditing an existing UI, score each area 1-5 and provide fixes:
+When auditing an existing UI, load `references/usability-heuristics.md`, score each area 1-5, map findings to heuristics where useful, and provide fixes:
 
 1. Clarity: Can users immediately understand what this is and what to do?
 2. Hierarchy: Is the most important content/action visually dominant?
@@ -423,6 +503,10 @@ When auditing an existing UI, score each area 1-5 and provide fixes:
 10. Performance perception: Does the UI feel fast and stable?
 11. Conversion/task success: Does it reduce friction toward the main goal?
 12. Implementation readiness: Can developers build it from the spec?
+13. Platform fit: Does it follow platform-native conventions?
+14. Internationalization/content resilience: Will copy, layout, and formats survive localization?
+15. Ethics/privacy: Does it avoid dark patterns and explain data/permission use?
+16. Measurement: Are quality gates and success metrics explicit?
 
 Output format:
 
@@ -528,6 +612,8 @@ When asked to produce a final UI/UX spec, use this structure:
 14. QA/testing checklist.
 15. Open questions and risks.
 16. Anti-copy/IP safety notes when inspired by real brands.
+17. UI/UX memory status: read, created, updated, or unavailable.
+18. Durable design decisions added to memory.
 
 ## Quality Bar
 
@@ -568,6 +654,13 @@ A UI/UX answer is complete only when it handles:
 Before finalizing UI/UX work, verify:
 
 - [ ] The primary user goal is explicit.
+- [ ] Existing UI/UX memory was checked or created for the application.
+- [ ] Existing branding, colors, fonts, tokens, and components were inspected before new design decisions.
+- [ ] Research evidence, assumptions, and confidence level are documented.
+- [ ] Platform-specific conventions are followed.
+- [ ] Content design, i18n/localization, and translation risks are considered.
+- [ ] Ethical, privacy, dark-pattern, and inclusive-design risks are checked.
+- [ ] Measurement and quality gates are defined.
 - [ ] The main CTA and next action are obvious.
 - [ ] Screen hierarchy supports the main task.
 - [ ] Navigation labels match user language.
@@ -587,12 +680,16 @@ Before finalizing UI/UX work, verify:
 
 Use the supporting files in this skill folder when useful:
 
+- `README.md` — installation, usage, validation, maintenance, and deployment-readiness instructions.
+
 - `references/ui-ux-complete-checklist.md` — exhaustive checklist across UX, UI, content, accessibility, states, responsiveness, and handoff.
+- `references/ui-ux-memory-workflow.md` — dynamic project memory workflow for preserving brand consistency across the application.
 - `references/ui-ux-frontend-implementation-rules.md` — mandatory frontend implementation rules so agents do not miss stack inspection, states, accessibility, responsiveness, tokens, QA, or handoff.
 - `references/wcag-aa-quick-reference.md` — practical WCAG 2.2 AA reference for agents.
 - `references/design-system-playbook.md` — how to create or extend a design system.
 - `references/top-100-brand-website-analysis.md` — top 100 global brand website patterns and reusable frontend methods.
 - `templates/ui-ux-brief.md` — intake and requirements template.
+- `templates/ui-ux-memory.md` — project UI/UX memory file template to copy into an application root as `.ui-ux-memory.md`.
 - `templates/ui-ux-audit-report.md` — audit output template.
 - `templates/component-spec.md` — component handoff template.
 - `templates/design-system-spec.md` — design system template.

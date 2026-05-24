@@ -25,6 +25,9 @@ If any item is missing, the implementation is incomplete.
 
 Before writing UI code:
 
+- Check for an application UI/UX memory file first: `.ui-ux-memory.md`, `docs/ui-ux-memory.md`, `docs/design/ui-ux-memory.md`, or `design/ui-ux-memory.md`.
+- If memory exists, read it and follow it as the source of truth for brand and UI consistency.
+- If no memory exists, inspect existing branding and create `.ui-ux-memory.md` using `templates/ui-ux-memory.md` before or alongside the first durable UI change.
 - Check the project stack and dependencies.
 - Check existing component library or design system.
 - Check routing, layout, state management, and styling conventions.
@@ -34,6 +37,8 @@ Before writing UI code:
 Do not assume Tailwind, Bootstrap, shadcn, Radix, MUI, Framer Motion, icons, fonts, or chart libraries exist. Verify first.
 
 ### 2. Define the UX Contract
+
+If this is a fresh project with no existing memory or branding, ask minimal high-value questions first: what is being built, who it is for, primary success action, desired personality, colors/fonts/references to use or avoid, and platform/type. If the user does not answer, proceed with explicit assumptions and save them in `.ui-ux-memory.md`.
 
 Before coding a screen, write or infer:
 
@@ -337,3 +342,37 @@ When handing off or summarizing frontend work, include:
 ## Agent Stop Condition
 
 Do not stop at "implemented the UI" if verification has not happened. Run available checks, inspect the result, and fix issues found. If browser or visual tools are available, visually verify the page. If tests/lint/build exist, run them. If no automated checks exist, perform the manual QA checklist and report what was verified.
+
+## Advanced Deployment Checks
+
+### Platform-Specific Implementation
+
+- Follow the target platform conventions from `references/platform-guidelines.md`.
+- Do not force desktop web patterns into mobile/native contexts.
+- Implement Back, Escape, focus restoration, safe-area, zoom, and reduced-motion behavior where applicable.
+
+### Internationalization Implementation
+
+- Avoid hardcoded concatenated strings that cannot be translated.
+- Allow text expansion and wrapping.
+- Use locale-aware date, number, currency, phone, address, and name formatting where relevant.
+- Test RTL or bidirectional layout when target locales require it.
+
+### Privacy and Consent UI
+
+- Do not preselect optional consent.
+- Make destructive, paid, public, or data-sharing actions explicit.
+- Provide clear recovery or cancellation paths where appropriate.
+
+### Advanced Accessibility Widgets
+
+- For dialogs, tabs, menus, comboboxes, data grids, toasts, drag/drop, and live updates, follow `references/accessibility-advanced-patterns.md`.
+- Specify keyboard model, focus behavior, accessible name/state, and announcements.
+
+### Measurable Frontend Quality Gates
+
+- Build/lint/test command passes when available.
+- Main task can be completed at 320px, 768px, 1024px, and 1440px.
+- Keyboard-only path completes the main task.
+- Console has no new runtime errors in the changed flow.
+- Loading, empty, error, success, disabled, permission, and offline/partial states are handled when applicable.

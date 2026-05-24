@@ -6,6 +6,13 @@
 
 What user problem does this component solve?
 
+## Platform and Context
+
+- Platform(s): web / iOS / Android / desktop / email / kiosk / other:
+- Existing component to reuse:
+- User task:
+- Accessibility risk level:
+
 ## Anatomy
 
 - Container:
@@ -30,18 +37,21 @@ What user problem does this component solve?
 - Small:
 - Medium:
 - Large:
+- Touch target minimum:
 
 ## States
 
 - Default:
 - Hover:
-- Focus:
+- Focus-visible:
 - Active/pressed:
 - Disabled:
 - Loading:
 - Selected/current:
 - Error:
 - Success:
+- Empty/no data:
+- Permission/offline if applicable:
 
 ## Behavior
 
@@ -51,6 +61,7 @@ What user problem does this component solve?
 - Open/close if applicable:
 - Validation if applicable:
 - Async behavior:
+- Escape/back behavior:
 
 ## Accessibility
 
@@ -61,6 +72,8 @@ What user problem does this component solve?
 - Focus indicator:
 - Contrast requirements:
 - Screen reader notes:
+- Reduced motion behavior:
+- Complex-widget pattern reference:
 
 ## Content Guidelines
 
@@ -69,12 +82,14 @@ What user problem does this component solve?
 - Tone:
 - Examples:
 - Avoid:
+- Localization/text expansion notes:
 
 ## Responsive Behavior
 
 - Mobile:
 - Tablet:
 - Desktop:
+- Wide:
 
 ## Tokens Used
 
@@ -87,11 +102,23 @@ What user problem does this component solve?
 
 ## Implementation Notes
 
-- Existing component to reuse:
 - Props/API:
 - Data requirements:
 - Events/analytics:
+- Error handling:
 - Tests:
+
+## Acceptance Criteria and Test Matrix
+
+| Requirement | Test | Pass Criteria |
+|---|---|---|
+| Default behavior |  |  |
+| Keyboard behavior |  |  |
+| Screen-reader behavior |  |  |
+| Responsive behavior |  |  |
+| Error/loading/empty states |  |  |
+| Localization/text expansion |  |  |
+| Visual regression |  |  |
 
 ## Usage Examples
 

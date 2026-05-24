@@ -170,3 +170,45 @@ Use this checklist for every UI/UX design, audit, redesign, or implementation re
 - [ ] Analytics events are listed.
 - [ ] QA checklist is included.
 - [ ] Out-of-scope items are documented.
+
+## Advanced One-Stop Coverage Additions
+
+### Research Evidence
+
+- [ ] Evidence sources are documented: analytics, support, interviews, usability tests, screenshots, or stakeholder assumptions.
+- [ ] Research confidence is labeled high, medium, or low.
+- [ ] Assumptions are not presented as user facts.
+- [ ] Research method fits the uncertainty: interview, survey, usability test, card sort, tree test, accessibility test, or heuristic review.
+
+### Platform-Native Conventions
+
+- [ ] Web, iOS, Android/Material, desktop, email, kiosk, TV, or wearable conventions are followed as relevant.
+- [ ] Touch, mouse, keyboard, remote, and assistive-tech input models are considered.
+- [ ] Back, Escape, safe areas, system font scaling, zoom, and reduced-motion behaviors are defined where relevant.
+
+### Internationalization and Content Resilience
+
+- [ ] Text can expand without breaking layout.
+- [ ] RTL/bidirectional layout is considered where relevant.
+- [ ] Date, time, number, currency, address, phone, name, and plural formats are locale-aware where relevant.
+- [ ] Translation keys, variables, fallback copy, and legal copy ownership are documented.
+
+### Measurement and Quality Gates
+
+- [ ] Task success metric is explicit.
+- [ ] Accessibility, responsive, platform, performance, and content gates are defined.
+- [ ] Analytics events support the key user decisions and outcomes.
+- [ ] Usability validation method is specified when risk is medium or high.
+
+### Ethics, Privacy, and Inclusion
+
+- [ ] No dark patterns: hidden costs, forced continuity, confirmshaming, obstruction, sneaking, or manipulative urgency.
+- [ ] Consent is clear, granular, and not preselected for optional tracking.
+- [ ] Sensitive data and permissions are requested only when needed and explained plainly.
+- [ ] High-risk flows include recovery, appeal, export/delete, or human handoff where appropriate.
+
+### Data Visualization and Dashboards
+
+- [ ] Charts have titles, units, timeframes, clear scales, and accessible color choices.
+- [ ] Tables support keyboard use, sorting, filtering, density, empty/no-results states, and exports where relevant.
+- [ ] Data freshness, partial data, stale data, and uncertainty are communicated.

@@ -7,6 +7,8 @@
 - Platforms:
 - Accessibility target:
 - Tech stack:
+- Version:
+- Owners:
 
 ## Foundations
 
@@ -21,6 +23,7 @@
 | color.border |  | Default borders |
 | color.primary |  | Primary actions |
 | color.danger |  | Destructive/status |
+| color.focus |  | Focus indicator |
 
 ### Typography Tokens
 
@@ -55,9 +58,18 @@
 | motion.fast | 120ms | Simple feedback |
 | motion.base | 180ms | Default transition |
 
+### Content, Localization, and Data Visualization Tokens
+
+- Voice/tone rules:
+- Error/empty/success copy patterns:
+- Locale and RTL rules:
+- Number/date/currency formats:
+- Chart color semantics:
+- Data density options:
+
 ## Components
 
-For each component, include purpose, anatomy, variants, sizes, states, accessibility, content rules, responsive behavior, and examples.
+For each component, include purpose, anatomy, variants, sizes, states, accessibility, content rules, responsive behavior, platform variants, acceptance criteria, and examples.
 
 ### Button
 
@@ -79,6 +91,8 @@ For each component, include purpose, anatomy, variants, sizes, states, accessibi
 
 ### Empty State
 
+### Chart/Data Visualization
+
 ## Patterns
 
 - Onboarding:
@@ -88,11 +102,20 @@ For each component, include purpose, anatomy, variants, sizes, states, accessibi
 - Permissions:
 - Loading and error recovery:
 - Notifications:
+- Checkout/payment if relevant:
+- Dashboard drill-down if relevant:
+- AI disclosure if relevant:
 
 ## Governance
 
 - Contribution process:
 - Naming conventions:
+- Versioning:
+- Changelog:
 - Deprecation process:
 - Accessibility review process:
-- Versioning:
+- Content/i18n review process:
+- Platform variant review process:
+- Token release process:
+- Visual regression process:
+- Owner/approver:

@@ -10,6 +10,7 @@ Use this when the user wants a frontend that feels as polished as leading global
 - Primary task:
 - Business goal:
 - Platform:
+- Evidence confidence:
 
 ## 2. Brand-Inspiration Blend
 
@@ -48,6 +49,7 @@ Example blends:
 - Section rhythm:
 - Sticky/persistent elements:
 - Mobile behavior:
+- Platform-specific behavior:
 
 ## 5. Visual Language
 
@@ -80,6 +82,7 @@ Example blends:
 - Disabled:
 - Hover/focus/active:
 - Mobile menu:
+- Offline/permission/partial data if relevant:
 
 ## 8. Accessibility
 
@@ -89,6 +92,7 @@ Example blends:
 - Contrast:
 - Reduced motion:
 - Labels and error messages:
+- Complex widget behavior:
 
 ## 9. Copy System
 
@@ -99,6 +103,7 @@ Example blends:
 - Proof line:
 - Empty-state copy:
 - Error copy:
+- Localization/text expansion notes:
 
 ## 10. Implementation Notes
 
@@ -109,10 +114,20 @@ Example blends:
 - Analytics events:
 - QA checks:
 
-## 11. Do Not Copy
+## 11. Quality Gates
+
+- Primary task success criteria:
+- Accessibility gate:
+- Responsive/platform gate:
+- Performance perception gate:
+- Content/i18n gate:
+- Ethics/privacy gate:
+
+## 12. Do Not Copy
 
 - Do not copy brand logos.
 - Do not copy exact trademarked color combinations unless the user owns the brand.
 - Do not copy proprietary images or illustrations.
 - Do not copy exact page layouts pixel-for-pixel.
 - Extract reusable principles instead: hierarchy, spacing, structure, behavior, tone.
+- Verify current brand/site claims before citing them as facts.
