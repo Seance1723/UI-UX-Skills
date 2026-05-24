@@ -1,6 +1,10 @@
-# UI/UX Master
+# UI/UX Master 🎨✨
 
-The one-stop UI/UX skill for AI coding agents.
+[![npm version](https://badge.fury.io/js/ui-ux-master.svg)](https://badge.fury.io/js/ui-ux-master)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+
+**The ultimate UI/UX skill for AI coding agents.** Turn your AI into a Senior Product Designer, UX Researcher, and Frontend Lead in seconds.
 
 Use it with a normal prompt plus one trigger:
 
@@ -15,6 +19,15 @@ If `/ui-ux-master` is not present, the installed rules tell agents not to use th
 Most AI UI prompts produce pretty screens but miss the hard parts: research assumptions, information architecture, accessibility, responsive states, design-system consistency, platform conventions, localization, ethics, and developer handoff.
 
 UI/UX Master is built to make agents behave like a senior product designer, UX researcher, accessibility reviewer, design-system lead, and frontend handoff partner in one workflow.
+
+## 🚀 Supercharge Your AI Workflow
+
+AI agents are great at writing code, but they often struggle with **Information Architecture**, **Accessibility (WCAG)**, and **Design Systems**. `ui-ux-master` bridges this gap. 
+
+By installing this tool, you instantly give **Claude**, **Cursor**, **Windsurf**, and **GitHub Copilot** the ability to:
+- 🧠 **Think like a designer:** Understand user flows and journey maps before coding.
+- ♿ **Audit for accessibility:** Automatically check for WCAG 2.2 AA compliance and ARIA patterns.
+- 🧩 **Enforce design systems:** Keep your brand colors, typography, and spacing consistent.
 
 ## What Makes It Different
 
