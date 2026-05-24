@@ -1,0 +1,3995 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "validate_skill.py",
+      "file_type": "code",
+      "source_file": "scripts/validate_skill.py",
+      "source_location": "L1",
+      "id": "scripts_validate_skill_py",
+      "community": 15,
+      "norm_label": "validate_skill.py"
+    },
+    {
+      "label": "fail()",
+      "file_type": "code",
+      "source_file": "scripts/validate_skill.py",
+      "source_location": "L39",
+      "id": "scripts_validate_skill_fail",
+      "community": 15,
+      "norm_label": "fail()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/validate_skill.py",
+      "source_location": "L44",
+      "id": "scripts_validate_skill_main",
+      "community": 15,
+      "norm_label": "main()"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 9,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "UI/UX Master Skill",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "ui_ux_skills_readme_ui_ux_master_skill",
+      "community": 9,
+      "norm_label": "ui/ux master skill"
+    },
+    {
+      "label": "Main skill",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "id": "ui_ux_skills_readme_main_skill",
+      "community": 9,
+      "norm_label": "main skill"
+    },
+    {
+      "label": "Supporting files",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L9",
+      "id": "ui_ux_skills_readme_supporting_files",
+      "community": 9,
+      "norm_label": "supporting files"
+    },
+    {
+      "label": "Validate",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L23",
+      "id": "ui_ux_skills_readme_validate",
+      "community": 9,
+      "norm_label": "validate"
+    },
+    {
+      "label": "code:bash (python scripts/validate_skill.py)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L27",
+      "id": "ui_ux_skills_readme_codeblock_1",
+      "community": 9,
+      "norm_label": "code:bash (python scripts/validate_skill.py)"
+    },
+    {
+      "label": "code:text (PASS: UI/UX skill package is valid)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L33",
+      "id": "ui_ux_skills_readme_codeblock_2",
+      "community": 9,
+      "norm_label": "code:text (pass: ui/ux skill package is valid)"
+    },
+    {
+      "label": "Install into Hermes skills folder",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "id": "ui_ux_skills_readme_install_into_hermes_skills_folder",
+      "community": 9,
+      "norm_label": "install into hermes skills folder"
+    },
+    {
+      "label": "code:bash (mkdir -p \"$HOME/AppData/Local/hermes/skills/creative/ui-ux-m)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L41",
+      "id": "ui_ux_skills_readme_codeblock_3",
+      "community": 9,
+      "norm_label": "code:bash (mkdir -p \"$home/appdata/local/hermes/skills/creative/ui-ux-m)"
+    },
+    {
+      "label": "Usage prompt",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L48",
+      "id": "ui_ux_skills_readme_usage_prompt",
+      "community": 9,
+      "norm_label": "usage prompt"
+    },
+    {
+      "label": "code:text (Load the ui-ux-master skill and produce a complete UI/UX pla)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L52",
+      "id": "ui_ux_skills_readme_codeblock_4",
+      "community": 9,
+      "norm_label": "code:text (load the ui-ux-master skill and produce a complete ui/ux pla)"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L1",
+      "id": "skill_md",
+      "community": 2,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "UI/UX Master Skill",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L14",
+      "id": "ui_ux_skills_skill_ui_ux_master_skill",
+      "community": 2,
+      "norm_label": "ui/ux master skill"
+    },
+    {
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L16",
+      "id": "ui_ux_skills_skill_overview",
+      "community": 2,
+      "norm_label": "overview"
+    },
+    {
+      "label": "Core Operating Rule",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L22",
+      "id": "ui_ux_skills_skill_core_operating_rule",
+      "community": 2,
+      "norm_label": "core operating rule"
+    },
+    {
+      "label": "When to Use",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L33",
+      "id": "ui_ux_skills_skill_when_to_use",
+      "community": 2,
+      "norm_label": "when to use"
+    },
+    {
+      "label": "Required Agent Behavior",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L47",
+      "id": "ui_ux_skills_skill_required_agent_behavior",
+      "community": 2,
+      "norm_label": "required agent behavior"
+    },
+    {
+      "label": "Ask Only High-Value Questions",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L49",
+      "id": "ui_ux_skills_skill_ask_only_high_value_questions",
+      "community": 2,
+      "norm_label": "ask only high-value questions"
+    },
+    {
+      "label": "Always Produce Useful Output",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L61",
+      "id": "ui_ux_skills_skill_always_produce_useful_output",
+      "community": 2,
+      "norm_label": "always produce useful output"
+    },
+    {
+      "label": "Prefer Specifics Over Taste",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L76",
+      "id": "ui_ux_skills_skill_prefer_specifics_over_taste",
+      "community": 2,
+      "norm_label": "prefer specifics over taste"
+    },
+    {
+      "label": "Universal UI/UX Workflow",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L83",
+      "id": "ui_ux_skills_skill_universal_ui_ux_workflow",
+      "community": 10,
+      "norm_label": "universal ui/ux workflow"
+    },
+    {
+      "label": "Phase 1: Product and User Understanding",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L85",
+      "id": "ui_ux_skills_skill_phase_1_product_and_user_understanding",
+      "community": 10,
+      "norm_label": "phase 1: product and user understanding"
+    },
+    {
+      "label": "Phase 2: UX Strategy",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L100",
+      "id": "ui_ux_skills_skill_phase_2_ux_strategy",
+      "community": 10,
+      "norm_label": "phase 2: ux strategy"
+    },
+    {
+      "label": "Phase 3: Information Architecture",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L113",
+      "id": "ui_ux_skills_skill_phase_3_information_architecture",
+      "community": 10,
+      "norm_label": "phase 3: information architecture"
+    },
+    {
+      "label": "Phase 4: User Flows",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L133",
+      "id": "ui_ux_skills_skill_phase_4_user_flows",
+      "community": 10,
+      "norm_label": "phase 4: user flows"
+    },
+    {
+      "label": "Phase 5: Wireframes and Layout",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L147",
+      "id": "ui_ux_skills_skill_phase_5_wireframes_and_layout",
+      "community": 10,
+      "norm_label": "phase 5: wireframes and layout"
+    },
+    {
+      "label": "Phase 6: Visual Design",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L170",
+      "id": "ui_ux_skills_skill_phase_6_visual_design",
+      "community": 10,
+      "norm_label": "phase 6: visual design"
+    },
+    {
+      "label": "Phase 7: Interaction Design",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L192",
+      "id": "ui_ux_skills_skill_phase_7_interaction_design",
+      "community": 10,
+      "norm_label": "phase 7: interaction design"
+    },
+    {
+      "label": "Phase 8: Accessibility and Inclusive Design",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L209",
+      "id": "ui_ux_skills_skill_phase_8_accessibility_and_inclusive_design",
+      "community": 10,
+      "norm_label": "phase 8: accessibility and inclusive design"
+    },
+    {
+      "label": "Phase 9: Content Design and Microcopy",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L230",
+      "id": "ui_ux_skills_skill_phase_9_content_design_and_microcopy",
+      "community": 10,
+      "norm_label": "phase 9: content design and microcopy"
+    },
+    {
+      "label": "Phase 10: Prototype and Handoff",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L252",
+      "id": "ui_ux_skills_skill_phase_10_prototype_and_handoff",
+      "community": 10,
+      "norm_label": "phase 10: prototype and handoff"
+    },
+    {
+      "label": "Design Specialties Covered",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L270",
+      "id": "ui_ux_skills_skill_design_specialties_covered",
+      "community": 14,
+      "norm_label": "design specialties covered"
+    },
+    {
+      "label": "Product UX",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L272",
+      "id": "ui_ux_skills_skill_product_ux",
+      "community": 14,
+      "norm_label": "product ux"
+    },
+    {
+      "label": "SaaS and Dashboard UX",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L284",
+      "id": "ui_ux_skills_skill_saas_and_dashboard_ux",
+      "community": 14,
+      "norm_label": "saas and dashboard ux"
+    },
+    {
+      "label": "Landing Page and Conversion UX",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L295",
+      "id": "ui_ux_skills_skill_landing_page_and_conversion_ux",
+      "community": 14,
+      "norm_label": "landing page and conversion ux"
+    },
+    {
+      "label": "Ecommerce UX",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L309",
+      "id": "ui_ux_skills_skill_ecommerce_ux",
+      "community": 14,
+      "norm_label": "ecommerce ux"
+    },
+    {
+      "label": "Forms UX",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L319",
+      "id": "ui_ux_skills_skill_forms_ux",
+      "community": 14,
+      "norm_label": "forms ux"
+    },
+    {
+      "label": "Mobile UX",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L332",
+      "id": "ui_ux_skills_skill_mobile_ux",
+      "community": 14,
+      "norm_label": "mobile ux"
+    },
+    {
+      "label": "Design Systems",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L344",
+      "id": "ui_ux_skills_skill_design_systems",
+      "community": 14,
+      "norm_label": "design systems"
+    },
+    {
+      "label": "Top-Brand Frontend Method",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L357",
+      "id": "ui_ux_skills_skill_top_brand_frontend_method",
+      "community": 14,
+      "norm_label": "top-brand frontend method"
+    },
+    {
+      "label": "Frontend Implementation UX",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L389",
+      "id": "ui_ux_skills_skill_frontend_implementation_ux",
+      "community": 14,
+      "norm_label": "frontend implementation ux"
+    },
+    {
+      "label": "UI/UX Audit Framework",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L407",
+      "id": "ui_ux_skills_skill_ui_ux_audit_framework",
+      "community": 2,
+      "norm_label": "ui/ux audit framework"
+    },
+    {
+      "label": "Screen State Checklist",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L434",
+      "id": "ui_ux_skills_skill_screen_state_checklist",
+      "community": 2,
+      "norm_label": "screen state checklist"
+    },
+    {
+      "label": "Responsive Breakpoints Guidance",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L455",
+      "id": "ui_ux_skills_skill_responsive_breakpoints_guidance",
+      "community": 2,
+      "norm_label": "responsive breakpoints guidance"
+    },
+    {
+      "label": "Design Token Starter Set",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L474",
+      "id": "ui_ux_skills_skill_design_token_starter_set",
+      "community": 2,
+      "norm_label": "design token starter set"
+    },
+    {
+      "label": "Handoff Output Template",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L508",
+      "id": "ui_ux_skills_skill_handoff_output_template",
+      "community": 2,
+      "norm_label": "handoff output template"
+    },
+    {
+      "label": "Quality Bar",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L529",
+      "id": "ui_ux_skills_skill_quality_bar",
+      "community": 2,
+      "norm_label": "quality bar"
+    },
+    {
+      "label": "Common Pitfalls",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L545",
+      "id": "ui_ux_skills_skill_common_pitfalls",
+      "community": 2,
+      "norm_label": "common pitfalls"
+    },
+    {
+      "label": "Verification Checklist",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L563",
+      "id": "ui_ux_skills_skill_verification_checklist",
+      "community": 2,
+      "norm_label": "verification checklist"
+    },
+    {
+      "label": "Supporting Files",
+      "file_type": "document",
+      "source_file": "SKILL.md",
+      "source_location": "L583",
+      "id": "ui_ux_skills_skill_supporting_files",
+      "community": 2,
+      "norm_label": "supporting files"
+    },
+    {
+      "label": "design-system-playbook.md",
+      "file_type": "document",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L1",
+      "id": "references_design_system_playbook_md",
+      "community": 6,
+      "norm_label": "design-system-playbook.md"
+    },
+    {
+      "label": "Design System Playbook",
+      "file_type": "document",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L1",
+      "id": "references_design_system_playbook_design_system_playbook",
+      "community": 6,
+      "norm_label": "design system playbook"
+    },
+    {
+      "label": "Purpose",
+      "file_type": "document",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L5",
+      "id": "references_design_system_playbook_purpose",
+      "community": 6,
+      "norm_label": "purpose"
+    },
+    {
+      "label": "Foundations",
+      "file_type": "document",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L9",
+      "id": "references_design_system_playbook_foundations",
+      "community": 6,
+      "norm_label": "foundations"
+    },
+    {
+      "label": "Color",
+      "file_type": "document",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L11",
+      "id": "references_design_system_playbook_color",
+      "community": 6,
+      "norm_label": "color"
+    },
+    {
+      "label": "Typography",
+      "file_type": "document",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L24",
+      "id": "references_design_system_playbook_typography",
+      "community": 6,
+      "norm_label": "typography"
+    },
+    {
+      "label": "Spacing",
+      "file_type": "document",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L35",
+      "id": "references_design_system_playbook_spacing",
+      "community": 6,
+      "norm_label": "spacing"
+    },
+    {
+      "label": "Shape and Elevation",
+      "file_type": "document",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L43",
+      "id": "references_design_system_playbook_shape_and_elevation",
+      "community": 6,
+      "norm_label": "shape and elevation"
+    },
+    {
+      "label": "Motion",
+      "file_type": "document",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L55",
+      "id": "references_design_system_playbook_motion",
+      "community": 6,
+      "norm_label": "motion"
+    },
+    {
+      "label": "Component Specification Requirements",
+      "file_type": "document",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L67",
+      "id": "references_design_system_playbook_component_specification_requirements",
+      "community": 6,
+      "norm_label": "component specification requirements"
+    },
+    {
+      "label": "Minimum Component Set",
+      "file_type": "document",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L84",
+      "id": "references_design_system_playbook_minimum_component_set",
+      "community": 6,
+      "norm_label": "minimum component set"
+    },
+    {
+      "label": "Governance",
+      "file_type": "document",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L116",
+      "id": "references_design_system_playbook_governance",
+      "community": 6,
+      "norm_label": "governance"
+    },
+    {
+      "label": "Design System Audit Questions",
+      "file_type": "document",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L124",
+      "id": "references_design_system_playbook_design_system_audit_questions",
+      "community": 6,
+      "norm_label": "design system audit questions"
+    },
+    {
+      "label": "top-100-brand-website-analysis.md",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L1",
+      "id": "references_top_100_brand_website_analysis_md",
+      "community": 11,
+      "norm_label": "top-100-brand-website-analysis.md"
+    },
+    {
+      "label": "Top 100 Global Brand Website Analysis",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L1",
+      "id": "references_top_100_brand_website_analysis_top_100_global_brand_website_analysis",
+      "community": 11,
+      "norm_label": "top 100 global brand website analysis"
+    },
+    {
+      "label": "Cross-Brand Findings",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L7",
+      "id": "references_top_100_brand_website_analysis_cross_brand_findings",
+      "community": 11,
+      "norm_label": "cross-brand findings"
+    },
+    {
+      "label": "Layout",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L9",
+      "id": "references_top_100_brand_website_analysis_layout",
+      "community": 11,
+      "norm_label": "layout"
+    },
+    {
+      "label": "Usability",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L20",
+      "id": "references_top_100_brand_website_analysis_usability",
+      "community": 11,
+      "norm_label": "usability"
+    },
+    {
+      "label": "Branding",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L30",
+      "id": "references_top_100_brand_website_analysis_branding",
+      "community": 11,
+      "norm_label": "branding"
+    },
+    {
+      "label": "Color Scheme",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L34",
+      "id": "references_top_100_brand_website_analysis_color_scheme",
+      "community": 11,
+      "norm_label": "color scheme"
+    },
+    {
+      "label": "UX Structure",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L45",
+      "id": "references_top_100_brand_website_analysis_ux_structure",
+      "community": 11,
+      "norm_label": "ux structure"
+    },
+    {
+      "label": "Accessibility",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L54",
+      "id": "references_top_100_brand_website_analysis_accessibility",
+      "community": 11,
+      "norm_label": "accessibility"
+    },
+    {
+      "label": "Brand-by-Brand Analysis Table",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L75",
+      "id": "references_top_100_brand_website_analysis_brand_by_brand_analysis_table",
+      "community": 11,
+      "norm_label": "brand-by-brand analysis table"
+    },
+    {
+      "label": "Reusable Top-Brand Design Methods",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L180",
+      "id": "references_top_100_brand_website_analysis_reusable_top_brand_design_methods",
+      "community": 12,
+      "norm_label": "reusable top-brand design methods"
+    },
+    {
+      "label": "1. Product Cinema Method",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L182",
+      "id": "references_top_100_brand_website_analysis_1_product_cinema_method",
+      "community": 12,
+      "norm_label": "1. product cinema method"
+    },
+    {
+      "label": "2. Utility Command Center Method",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L193",
+      "id": "references_top_100_brand_website_analysis_2_utility_command_center_method",
+      "community": 12,
+      "norm_label": "2. utility command center method"
+    },
+    {
+      "label": "3. Editorial Brand World Method",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L204",
+      "id": "references_top_100_brand_website_analysis_3_editorial_brand_world_method",
+      "community": 12,
+      "norm_label": "3. editorial brand world method"
+    },
+    {
+      "label": "4. Enterprise Trust Hub Method",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L215",
+      "id": "references_top_100_brand_website_analysis_4_enterprise_trust_hub_method",
+      "community": 12,
+      "norm_label": "4. enterprise trust hub method"
+    },
+    {
+      "label": "5. Card-Based Discovery Method",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L226",
+      "id": "references_top_100_brand_website_analysis_5_card_based_discovery_method",
+      "community": 12,
+      "norm_label": "5. card-based discovery method"
+    },
+    {
+      "label": "6. Conversion Simplicity Method",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L237",
+      "id": "references_top_100_brand_website_analysis_6_conversion_simplicity_method",
+      "community": 12,
+      "norm_label": "6. conversion simplicity method"
+    },
+    {
+      "label": "7. Ecosystem Bundling Method",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L248",
+      "id": "references_top_100_brand_website_analysis_7_ecosystem_bundling_method",
+      "community": 12,
+      "norm_label": "7. ecosystem bundling method"
+    },
+    {
+      "label": "8. Premium Restraint Method",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L258",
+      "id": "references_top_100_brand_website_analysis_8_premium_restraint_method",
+      "community": 12,
+      "norm_label": "8. premium restraint method"
+    },
+    {
+      "label": "9. Playful Familiarity Method",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L268",
+      "id": "references_top_100_brand_website_analysis_9_playful_familiarity_method",
+      "community": 12,
+      "norm_label": "9. playful familiarity method"
+    },
+    {
+      "label": "10. Technical Authority Method",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L278",
+      "id": "references_top_100_brand_website_analysis_10_technical_authority_method",
+      "community": 12,
+      "norm_label": "10. technical authority method"
+    },
+    {
+      "label": "Agent Usage Rules",
+      "file_type": "document",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L288",
+      "id": "references_top_100_brand_website_analysis_agent_usage_rules",
+      "community": 11,
+      "norm_label": "agent usage rules"
+    },
+    {
+      "label": "ui-ux-complete-checklist.md",
+      "file_type": "document",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L1",
+      "id": "references_ui_ux_complete_checklist_md",
+      "community": 4,
+      "norm_label": "ui-ux-complete-checklist.md"
+    },
+    {
+      "label": "UI/UX Complete Checklist",
+      "file_type": "document",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L1",
+      "id": "references_ui_ux_complete_checklist_ui_ux_complete_checklist",
+      "community": 4,
+      "norm_label": "ui/ux complete checklist"
+    },
+    {
+      "label": "1. Product Fit",
+      "file_type": "document",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L5",
+      "id": "references_ui_ux_complete_checklist_1_product_fit",
+      "community": 4,
+      "norm_label": "1. product fit"
+    },
+    {
+      "label": "2. Information Architecture",
+      "file_type": "document",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L16",
+      "id": "references_ui_ux_complete_checklist_2_information_architecture",
+      "community": 4,
+      "norm_label": "2. information architecture"
+    },
+    {
+      "label": "3. User Flows",
+      "file_type": "document",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L27",
+      "id": "references_ui_ux_complete_checklist_3_user_flows",
+      "community": 4,
+      "norm_label": "3. user flows"
+    },
+    {
+      "label": "4. Layout and Hierarchy",
+      "file_type": "document",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L39",
+      "id": "references_ui_ux_complete_checklist_4_layout_and_hierarchy",
+      "community": 4,
+      "norm_label": "4. layout and hierarchy"
+    },
+    {
+      "label": "5. Visual Design",
+      "file_type": "document",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L51",
+      "id": "references_ui_ux_complete_checklist_5_visual_design",
+      "community": 4,
+      "norm_label": "5. visual design"
+    },
+    {
+      "label": "6. Components",
+      "file_type": "document",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L63",
+      "id": "references_ui_ux_complete_checklist_6_components",
+      "community": 4,
+      "norm_label": "6. components"
+    },
+    {
+      "label": "7. State Coverage",
+      "file_type": "document",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L75",
+      "id": "references_ui_ux_complete_checklist_7_state_coverage",
+      "community": 4,
+      "norm_label": "7. state coverage"
+    },
+    {
+      "label": "8. Forms",
+      "file_type": "document",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L91",
+      "id": "references_ui_ux_complete_checklist_8_forms",
+      "community": 4,
+      "norm_label": "8. forms"
+    },
+    {
+      "label": "9. Content and Microcopy",
+      "file_type": "document",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L104",
+      "id": "references_ui_ux_complete_checklist_9_content_and_microcopy",
+      "community": 4,
+      "norm_label": "9. content and microcopy"
+    },
+    {
+      "label": "10. Accessibility",
+      "file_type": "document",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L116",
+      "id": "references_ui_ux_complete_checklist_10_accessibility",
+      "community": 4,
+      "norm_label": "10. accessibility"
+    },
+    {
+      "label": "11. Responsive Design",
+      "file_type": "document",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L131",
+      "id": "references_ui_ux_complete_checklist_11_responsive_design",
+      "community": 4,
+      "norm_label": "11. responsive design"
+    },
+    {
+      "label": "12. Trust, Safety, and Ethics",
+      "file_type": "document",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L143",
+      "id": "references_ui_ux_complete_checklist_12_trust_safety_and_ethics",
+      "community": 4,
+      "norm_label": "12. trust, safety, and ethics"
+    },
+    {
+      "label": "13. Performance Perception",
+      "file_type": "document",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L153",
+      "id": "references_ui_ux_complete_checklist_13_performance_perception",
+      "community": 4,
+      "norm_label": "13. performance perception"
+    },
+    {
+      "label": "14. Handoff",
+      "file_type": "document",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L162",
+      "id": "references_ui_ux_complete_checklist_14_handoff",
+      "community": 4,
+      "norm_label": "14. handoff"
+    },
+    {
+      "label": "ui-ux-frontend-implementation-rules.md",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L1",
+      "id": "references_ui_ux_frontend_implementation_rules_md",
+      "community": 0,
+      "norm_label": "ui-ux-frontend-implementation-rules.md"
+    },
+    {
+      "label": "UI/UX Frontend Implementation Rules",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L1",
+      "id": "references_ui_ux_frontend_implementation_rules_ui_ux_frontend_implementation_rules",
+      "community": 0,
+      "norm_label": "ui/ux frontend implementation rules"
+    },
+    {
+      "label": "Non-Negotiable Rule",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L5",
+      "id": "references_ui_ux_frontend_implementation_rules_non_negotiable_rule",
+      "community": 0,
+      "norm_label": "non-negotiable rule"
+    },
+    {
+      "label": "Required Implementation Order",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L22",
+      "id": "references_ui_ux_frontend_implementation_rules_required_implementation_order",
+      "community": 0,
+      "norm_label": "required implementation order"
+    },
+    {
+      "label": "1. Inspect Before Building",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L24",
+      "id": "references_ui_ux_frontend_implementation_rules_1_inspect_before_building",
+      "community": 0,
+      "norm_label": "1. inspect before building"
+    },
+    {
+      "label": "2. Define the UX Contract",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L36",
+      "id": "references_ui_ux_frontend_implementation_rules_2_define_the_ux_contract",
+      "community": 0,
+      "norm_label": "2. define the ux contract"
+    },
+    {
+      "label": "3. Choose the Design Method",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L51",
+      "id": "references_ui_ux_frontend_implementation_rules_3_choose_the_design_method",
+      "community": 0,
+      "norm_label": "3. choose the design method"
+    },
+    {
+      "label": "4. Create or Reuse Tokens",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L68",
+      "id": "references_ui_ux_frontend_implementation_rules_4_create_or_reuse_tokens",
+      "community": 0,
+      "norm_label": "4. create or reuse tokens"
+    },
+    {
+      "label": "5. Build Layout First",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L84",
+      "id": "references_ui_ux_frontend_implementation_rules_5_build_layout_first",
+      "community": 0,
+      "norm_label": "5. build layout first"
+    },
+    {
+      "label": "6. Build Components with Complete States",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L105",
+      "id": "references_ui_ux_frontend_implementation_rules_6_build_components_with_complete_states",
+      "community": 0,
+      "norm_label": "6. build components with complete states"
+    },
+    {
+      "label": "7. Accessibility Is Part of the Build",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L129",
+      "id": "references_ui_ux_frontend_implementation_rules_7_accessibility_is_part_of_the_build",
+      "community": 0,
+      "norm_label": "7. accessibility is part of the build"
+    },
+    {
+      "label": "8. Responsive Rules",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L152",
+      "id": "references_ui_ux_frontend_implementation_rules_8_responsive_rules",
+      "community": 0,
+      "norm_label": "8. responsive rules"
+    },
+    {
+      "label": "9. Forms and Validation Rules",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L175",
+      "id": "references_ui_ux_frontend_implementation_rules_9_forms_and_validation_rules",
+      "community": 0,
+      "norm_label": "9. forms and validation rules"
+    },
+    {
+      "label": "10. Content and Microcopy Rules",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L197",
+      "id": "references_ui_ux_frontend_implementation_rules_10_content_and_microcopy_rules",
+      "community": 0,
+      "norm_label": "10. content and microcopy rules"
+    },
+    {
+      "label": "11. Branding and Visual Quality Rules",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L210",
+      "id": "references_ui_ux_frontend_implementation_rules_11_branding_and_visual_quality_rules",
+      "community": 0,
+      "norm_label": "11. branding and visual quality rules"
+    },
+    {
+      "label": "12. Data and API UX Rules",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L231",
+      "id": "references_ui_ux_frontend_implementation_rules_12_data_and_api_ux_rules",
+      "community": 0,
+      "norm_label": "12. data and api ux rules"
+    },
+    {
+      "label": "13. Navigation and IA Rules",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L247",
+      "id": "references_ui_ux_frontend_implementation_rules_13_navigation_and_ia_rules",
+      "community": 0,
+      "norm_label": "13. navigation and ia rules"
+    },
+    {
+      "label": "14. Performance Perception Rules",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L260",
+      "id": "references_ui_ux_frontend_implementation_rules_14_performance_perception_rules",
+      "community": 0,
+      "norm_label": "14. performance perception rules"
+    },
+    {
+      "label": "15. Security, Trust, and Ethics Rules",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L274",
+      "id": "references_ui_ux_frontend_implementation_rules_15_security_trust_and_ethics_rules",
+      "community": 0,
+      "norm_label": "15. security, trust, and ethics rules"
+    },
+    {
+      "label": "16. Frontend QA Checklist",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L295",
+      "id": "references_ui_ux_frontend_implementation_rules_16_frontend_qa_checklist",
+      "community": 0,
+      "norm_label": "16. frontend qa checklist"
+    },
+    {
+      "label": "17. Implementation Handoff Checklist",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L322",
+      "id": "references_ui_ux_frontend_implementation_rules_17_implementation_handoff_checklist",
+      "community": 0,
+      "norm_label": "17. implementation handoff checklist"
+    },
+    {
+      "label": "Agent Stop Condition",
+      "file_type": "document",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L337",
+      "id": "references_ui_ux_frontend_implementation_rules_agent_stop_condition",
+      "community": 0,
+      "norm_label": "agent stop condition"
+    },
+    {
+      "label": "wcag-aa-quick-reference.md",
+      "file_type": "document",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L1",
+      "id": "references_wcag_aa_quick_reference_md",
+      "community": 8,
+      "norm_label": "wcag-aa-quick-reference.md"
+    },
+    {
+      "label": "WCAG 2.2 AA Quick Reference for Agents",
+      "file_type": "document",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L1",
+      "id": "references_wcag_aa_quick_reference_wcag_2_2_aa_quick_reference_for_agents",
+      "community": 8,
+      "norm_label": "wcag 2.2 aa quick reference for agents"
+    },
+    {
+      "label": "Core Principles",
+      "file_type": "document",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L5",
+      "id": "references_wcag_aa_quick_reference_core_principles",
+      "community": 8,
+      "norm_label": "core principles"
+    },
+    {
+      "label": "Contrast",
+      "file_type": "document",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L12",
+      "id": "references_wcag_aa_quick_reference_contrast",
+      "community": 8,
+      "norm_label": "contrast"
+    },
+    {
+      "label": "Keyboard",
+      "file_type": "document",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L19",
+      "id": "references_wcag_aa_quick_reference_keyboard",
+      "community": 8,
+      "norm_label": "keyboard"
+    },
+    {
+      "label": "Semantic Structure",
+      "file_type": "document",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L27",
+      "id": "references_wcag_aa_quick_reference_semantic_structure",
+      "community": 8,
+      "norm_label": "semantic structure"
+    },
+    {
+      "label": "Forms",
+      "file_type": "document",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L35",
+      "id": "references_wcag_aa_quick_reference_forms",
+      "community": 8,
+      "norm_label": "forms"
+    },
+    {
+      "label": "Motion and Timing",
+      "file_type": "document",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L44",
+      "id": "references_wcag_aa_quick_reference_motion_and_timing",
+      "community": 8,
+      "norm_label": "motion and timing"
+    },
+    {
+      "label": "Images and Media",
+      "file_type": "document",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L51",
+      "id": "references_wcag_aa_quick_reference_images_and_media",
+      "community": 8,
+      "norm_label": "images and media"
+    },
+    {
+      "label": "Touch and Pointer",
+      "file_type": "document",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L58",
+      "id": "references_wcag_aa_quick_reference_touch_and_pointer",
+      "community": 8,
+      "norm_label": "touch and pointer"
+    },
+    {
+      "label": "Common Agent Fixes",
+      "file_type": "document",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L64",
+      "id": "references_wcag_aa_quick_reference_common_agent_fixes",
+      "community": 8,
+      "norm_label": "common agent fixes"
+    },
+    {
+      "label": "Accessibility Acceptance Criteria",
+      "file_type": "document",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L75",
+      "id": "references_wcag_aa_quick_reference_accessibility_acceptance_criteria",
+      "community": 8,
+      "norm_label": "accessibility acceptance criteria"
+    },
+    {
+      "label": "component-spec.md",
+      "file_type": "document",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L1",
+      "id": "templates_component_spec_md",
+      "community": 3,
+      "norm_label": "component-spec.md"
+    },
+    {
+      "label": "Component Spec",
+      "file_type": "document",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L1",
+      "id": "templates_component_spec_component_spec",
+      "community": 3,
+      "norm_label": "component spec"
+    },
+    {
+      "label": "Component Name",
+      "file_type": "document",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L3",
+      "id": "templates_component_spec_component_name",
+      "community": 3,
+      "norm_label": "component name"
+    },
+    {
+      "label": "Purpose",
+      "file_type": "document",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L5",
+      "id": "templates_component_spec_purpose",
+      "community": 3,
+      "norm_label": "purpose"
+    },
+    {
+      "label": "Anatomy",
+      "file_type": "document",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L9",
+      "id": "templates_component_spec_anatomy",
+      "community": 3,
+      "norm_label": "anatomy"
+    },
+    {
+      "label": "Variants",
+      "file_type": "document",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L19",
+      "id": "templates_component_spec_variants",
+      "community": 3,
+      "norm_label": "variants"
+    },
+    {
+      "label": "Sizes",
+      "file_type": "document",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L28",
+      "id": "templates_component_spec_sizes",
+      "community": 3,
+      "norm_label": "sizes"
+    },
+    {
+      "label": "States",
+      "file_type": "document",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L34",
+      "id": "templates_component_spec_states",
+      "community": 3,
+      "norm_label": "states"
+    },
+    {
+      "label": "Behavior",
+      "file_type": "document",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L46",
+      "id": "templates_component_spec_behavior",
+      "community": 3,
+      "norm_label": "behavior"
+    },
+    {
+      "label": "Accessibility",
+      "file_type": "document",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L55",
+      "id": "templates_component_spec_accessibility",
+      "community": 3,
+      "norm_label": "accessibility"
+    },
+    {
+      "label": "Content Guidelines",
+      "file_type": "document",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L65",
+      "id": "templates_component_spec_content_guidelines",
+      "community": 3,
+      "norm_label": "content guidelines"
+    },
+    {
+      "label": "Responsive Behavior",
+      "file_type": "document",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L73",
+      "id": "templates_component_spec_responsive_behavior",
+      "community": 3,
+      "norm_label": "responsive behavior"
+    },
+    {
+      "label": "Tokens Used",
+      "file_type": "document",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L79",
+      "id": "templates_component_spec_tokens_used",
+      "community": 3,
+      "norm_label": "tokens used"
+    },
+    {
+      "label": "Implementation Notes",
+      "file_type": "document",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L88",
+      "id": "templates_component_spec_implementation_notes",
+      "community": 3,
+      "norm_label": "implementation notes"
+    },
+    {
+      "label": "Usage Examples",
+      "file_type": "document",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L96",
+      "id": "templates_component_spec_usage_examples",
+      "community": 3,
+      "norm_label": "usage examples"
+    },
+    {
+      "label": "Good",
+      "file_type": "document",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L98",
+      "id": "templates_component_spec_good",
+      "community": 3,
+      "norm_label": "good"
+    },
+    {
+      "label": "Bad",
+      "file_type": "document",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L100",
+      "id": "templates_component_spec_bad",
+      "community": 3,
+      "norm_label": "bad"
+    },
+    {
+      "label": "design-system-spec.md",
+      "file_type": "document",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L1",
+      "id": "templates_design_system_spec_md",
+      "community": 1,
+      "norm_label": "design-system-spec.md"
+    },
+    {
+      "label": "Design System Spec",
+      "file_type": "document",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L1",
+      "id": "templates_design_system_spec_design_system_spec",
+      "community": 1,
+      "norm_label": "design system spec"
+    },
+    {
+      "label": "System Overview",
+      "file_type": "document",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L3",
+      "id": "templates_design_system_spec_system_overview",
+      "community": 1,
+      "norm_label": "system overview"
+    },
+    {
+      "label": "Foundations",
+      "file_type": "document",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L11",
+      "id": "templates_design_system_spec_foundations",
+      "community": 1,
+      "norm_label": "foundations"
+    },
+    {
+      "label": "Color Tokens",
+      "file_type": "document",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L13",
+      "id": "templates_design_system_spec_color_tokens",
+      "community": 1,
+      "norm_label": "color tokens"
+    },
+    {
+      "label": "Typography Tokens",
+      "file_type": "document",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L25",
+      "id": "templates_design_system_spec_typography_tokens",
+      "community": 1,
+      "norm_label": "typography tokens"
+    },
+    {
+      "label": "Spacing Tokens",
+      "file_type": "document",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L35",
+      "id": "templates_design_system_spec_spacing_tokens",
+      "community": 1,
+      "norm_label": "spacing tokens"
+    },
+    {
+      "label": "Radius, Elevation, Motion",
+      "file_type": "document",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L46",
+      "id": "templates_design_system_spec_radius_elevation_motion",
+      "community": 1,
+      "norm_label": "radius, elevation, motion"
+    },
+    {
+      "label": "Components",
+      "file_type": "document",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L58",
+      "id": "templates_design_system_spec_components",
+      "community": 1,
+      "norm_label": "components"
+    },
+    {
+      "label": "Button",
+      "file_type": "document",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L62",
+      "id": "templates_design_system_spec_button",
+      "community": 1,
+      "norm_label": "button"
+    },
+    {
+      "label": "Input",
+      "file_type": "document",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L64",
+      "id": "templates_design_system_spec_input",
+      "community": 1,
+      "norm_label": "input"
+    },
+    {
+      "label": "Select/Combobox",
+      "file_type": "document",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L66",
+      "id": "templates_design_system_spec_select_combobox",
+      "community": 1,
+      "norm_label": "select/combobox"
+    },
+    {
+      "label": "Checkbox/Radio/Switch",
+      "file_type": "document",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L68",
+      "id": "templates_design_system_spec_checkbox_radio_switch",
+      "community": 1,
+      "norm_label": "checkbox/radio/switch"
+    },
+    {
+      "label": "Modal/Dialog",
+      "file_type": "document",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L70",
+      "id": "templates_design_system_spec_modal_dialog",
+      "community": 1,
+      "norm_label": "modal/dialog"
+    },
+    {
+      "label": "Toast/Alert",
+      "file_type": "document",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L72",
+      "id": "templates_design_system_spec_toast_alert",
+      "community": 1,
+      "norm_label": "toast/alert"
+    },
+    {
+      "label": "Card",
+      "file_type": "document",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L74",
+      "id": "templates_design_system_spec_card",
+      "community": 1,
+      "norm_label": "card"
+    },
+    {
+      "label": "Table/Data Grid",
+      "file_type": "document",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L76",
+      "id": "templates_design_system_spec_table_data_grid",
+      "community": 1,
+      "norm_label": "table/data grid"
+    },
+    {
+      "label": "Navigation",
+      "file_type": "document",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L78",
+      "id": "templates_design_system_spec_navigation",
+      "community": 1,
+      "norm_label": "navigation"
+    },
+    {
+      "label": "Empty State",
+      "file_type": "document",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L80",
+      "id": "templates_design_system_spec_empty_state",
+      "community": 1,
+      "norm_label": "empty state"
+    },
+    {
+      "label": "Patterns",
+      "file_type": "document",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L82",
+      "id": "templates_design_system_spec_patterns",
+      "community": 1,
+      "norm_label": "patterns"
+    },
+    {
+      "label": "Governance",
+      "file_type": "document",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L92",
+      "id": "templates_design_system_spec_governance",
+      "community": 1,
+      "norm_label": "governance"
+    },
+    {
+      "label": "top-brand-frontend-spec.md",
+      "file_type": "document",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L1",
+      "id": "templates_top_brand_frontend_spec_md",
+      "community": 7,
+      "norm_label": "top-brand-frontend-spec.md"
+    },
+    {
+      "label": "Top-Brand Frontend Spec Template",
+      "file_type": "document",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L1",
+      "id": "templates_top_brand_frontend_spec_top_brand_frontend_spec_template",
+      "community": 7,
+      "norm_label": "top-brand frontend spec template"
+    },
+    {
+      "label": "1. Product Context",
+      "file_type": "document",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L5",
+      "id": "templates_top_brand_frontend_spec_1_product_context",
+      "community": 7,
+      "norm_label": "1. product context"
+    },
+    {
+      "label": "2. Brand-Inspiration Blend",
+      "file_type": "document",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L14",
+      "id": "templates_top_brand_frontend_spec_2_brand_inspiration_blend",
+      "community": 7,
+      "norm_label": "2. brand-inspiration blend"
+    },
+    {
+      "label": "3. UX Structure",
+      "file_type": "document",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L30",
+      "id": "templates_top_brand_frontend_spec_3_ux_structure",
+      "community": 7,
+      "norm_label": "3. ux structure"
+    },
+    {
+      "label": "4. Layout Rules",
+      "file_type": "document",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L43",
+      "id": "templates_top_brand_frontend_spec_4_layout_rules",
+      "community": 7,
+      "norm_label": "4. layout rules"
+    },
+    {
+      "label": "5. Visual Language",
+      "file_type": "document",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L52",
+      "id": "templates_top_brand_frontend_spec_5_visual_language",
+      "community": 7,
+      "norm_label": "5. visual language"
+    },
+    {
+      "label": "6. Components",
+      "file_type": "document",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L62",
+      "id": "templates_top_brand_frontend_spec_6_components",
+      "community": 7,
+      "norm_label": "6. components"
+    },
+    {
+      "label": "7. States",
+      "file_type": "document",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L74",
+      "id": "templates_top_brand_frontend_spec_7_states",
+      "community": 7,
+      "norm_label": "7. states"
+    },
+    {
+      "label": "8. Accessibility",
+      "file_type": "document",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L84",
+      "id": "templates_top_brand_frontend_spec_8_accessibility",
+      "community": 7,
+      "norm_label": "8. accessibility"
+    },
+    {
+      "label": "9. Copy System",
+      "file_type": "document",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L93",
+      "id": "templates_top_brand_frontend_spec_9_copy_system",
+      "community": 7,
+      "norm_label": "9. copy system"
+    },
+    {
+      "label": "10. Implementation Notes",
+      "file_type": "document",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L103",
+      "id": "templates_top_brand_frontend_spec_10_implementation_notes",
+      "community": 7,
+      "norm_label": "10. implementation notes"
+    },
+    {
+      "label": "11. Do Not Copy",
+      "file_type": "document",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L112",
+      "id": "templates_top_brand_frontend_spec_11_do_not_copy",
+      "community": 7,
+      "norm_label": "11. do not copy"
+    },
+    {
+      "label": "ui-ux-audit-report.md",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L1",
+      "id": "templates_ui_ux_audit_report_md",
+      "community": 5,
+      "norm_label": "ui-ux-audit-report.md"
+    },
+    {
+      "label": "UI/UX Audit Report",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L1",
+      "id": "templates_ui_ux_audit_report_ui_ux_audit_report",
+      "community": 5,
+      "norm_label": "ui/ux audit report"
+    },
+    {
+      "label": "Executive Summary",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L3",
+      "id": "templates_ui_ux_audit_report_executive_summary",
+      "community": 5,
+      "norm_label": "executive summary"
+    },
+    {
+      "label": "Scope",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L10",
+      "id": "templates_ui_ux_audit_report_scope",
+      "community": 5,
+      "norm_label": "scope"
+    },
+    {
+      "label": "Scorecard",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L17",
+      "id": "templates_ui_ux_audit_report_scorecard",
+      "community": 5,
+      "norm_label": "scorecard"
+    },
+    {
+      "label": "Severity-Ranked Findings",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L34",
+      "id": "templates_ui_ux_audit_report_severity_ranked_findings",
+      "community": 5,
+      "norm_label": "severity-ranked findings"
+    },
+    {
+      "label": "Critical",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L36",
+      "id": "templates_ui_ux_audit_report_critical",
+      "community": 5,
+      "norm_label": "critical"
+    },
+    {
+      "label": "High",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L44",
+      "id": "templates_ui_ux_audit_report_high",
+      "community": 5,
+      "norm_label": "high"
+    },
+    {
+      "label": "Medium",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L52",
+      "id": "templates_ui_ux_audit_report_medium",
+      "community": 5,
+      "norm_label": "medium"
+    },
+    {
+      "label": "Low",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L60",
+      "id": "templates_ui_ux_audit_report_low",
+      "community": 5,
+      "norm_label": "low"
+    },
+    {
+      "label": "Quick Wins",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L68",
+      "id": "templates_ui_ux_audit_report_quick_wins",
+      "community": 5,
+      "norm_label": "quick wins"
+    },
+    {
+      "label": "Recommended Revised Structure",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L74",
+      "id": "templates_ui_ux_audit_report_recommended_revised_structure",
+      "community": 5,
+      "norm_label": "recommended revised structure"
+    },
+    {
+      "label": "Copy Improvements",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L83",
+      "id": "templates_ui_ux_audit_report_copy_improvements",
+      "community": 5,
+      "norm_label": "copy improvements"
+    },
+    {
+      "label": "Accessibility Fixes",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L89",
+      "id": "templates_ui_ux_audit_report_accessibility_fixes",
+      "community": 5,
+      "norm_label": "accessibility fixes"
+    },
+    {
+      "label": "Responsive Fixes",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L98",
+      "id": "templates_ui_ux_audit_report_responsive_fixes",
+      "community": 5,
+      "norm_label": "responsive fixes"
+    },
+    {
+      "label": "QA Checklist",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L105",
+      "id": "templates_ui_ux_audit_report_qa_checklist",
+      "community": 5,
+      "norm_label": "qa checklist"
+    },
+    {
+      "label": "ui-ux-brief.md",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-brief.md",
+      "source_location": "L1",
+      "id": "templates_ui_ux_brief_md",
+      "community": 13,
+      "norm_label": "ui-ux-brief.md"
+    },
+    {
+      "label": "UI/UX Brief",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-brief.md",
+      "source_location": "L1",
+      "id": "templates_ui_ux_brief_ui_ux_brief",
+      "community": 13,
+      "norm_label": "ui/ux brief"
+    },
+    {
+      "label": "Project",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-brief.md",
+      "source_location": "L3",
+      "id": "templates_ui_ux_brief_project",
+      "community": 13,
+      "norm_label": "project"
+    },
+    {
+      "label": "Goal",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-brief.md",
+      "source_location": "L10",
+      "id": "templates_ui_ux_brief_goal",
+      "community": 13,
+      "norm_label": "goal"
+    },
+    {
+      "label": "Users",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-brief.md",
+      "source_location": "L17",
+      "id": "templates_ui_ux_brief_users",
+      "community": 13,
+      "norm_label": "users"
+    },
+    {
+      "label": "Current Problem",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-brief.md",
+      "source_location": "L25",
+      "id": "templates_ui_ux_brief_current_problem",
+      "community": 13,
+      "norm_label": "current problem"
+    },
+    {
+      "label": "Constraints",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-brief.md",
+      "source_location": "L31",
+      "id": "templates_ui_ux_brief_constraints",
+      "community": 13,
+      "norm_label": "constraints"
+    },
+    {
+      "label": "Competitive/Reference Direction",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-brief.md",
+      "source_location": "L41",
+      "id": "templates_ui_ux_brief_competitive_reference_direction",
+      "community": 13,
+      "norm_label": "competitive/reference direction"
+    },
+    {
+      "label": "Deliverables Needed",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-brief.md",
+      "source_location": "L47",
+      "id": "templates_ui_ux_brief_deliverables_needed",
+      "community": 13,
+      "norm_label": "deliverables needed"
+    },
+    {
+      "label": "Assumptions",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-brief.md",
+      "source_location": "L59",
+      "id": "templates_ui_ux_brief_assumptions",
+      "community": 13,
+      "norm_label": "assumptions"
+    },
+    {
+      "label": "Open Questions",
+      "file_type": "document",
+      "source_file": "templates/ui-ux-brief.md",
+      "source_location": "L64",
+      "id": "templates_ui_ux_brief_open_questions",
+      "community": 13,
+      "norm_label": "open questions"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skill.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_validate_skill_py",
+      "target": "scripts_validate_skill_fail"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skill.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_validate_skill_py",
+      "target": "scripts_validate_skill_main"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/validate_skill.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_validate_skill_main",
+      "target": "scripts_validate_skill_fail"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_md",
+      "target": "ui_ux_skills_readme_ui_ux_master_skill"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_ui_ux_master_skill",
+      "target": "ui_ux_skills_readme_main_skill"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_ui_ux_master_skill",
+      "target": "ui_ux_skills_readme_supporting_files"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_ui_ux_master_skill",
+      "target": "ui_ux_skills_readme_validate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_ui_ux_master_skill",
+      "target": "ui_ux_skills_readme_install_into_hermes_skills_folder"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_ui_ux_master_skill",
+      "target": "ui_ux_skills_readme_usage_prompt"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_validate",
+      "target": "ui_ux_skills_readme_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_validate",
+      "target": "ui_ux_skills_readme_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_install_into_hermes_skills_folder",
+      "target": "ui_ux_skills_readme_codeblock_3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_readme_usage_prompt",
+      "target": "ui_ux_skills_readme_codeblock_4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "skill_md",
+      "target": "ui_ux_skills_skill_ui_ux_master_skill"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_ui_ux_master_skill",
+      "target": "ui_ux_skills_skill_overview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_ui_ux_master_skill",
+      "target": "ui_ux_skills_skill_core_operating_rule"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_ui_ux_master_skill",
+      "target": "ui_ux_skills_skill_when_to_use"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_ui_ux_master_skill",
+      "target": "ui_ux_skills_skill_required_agent_behavior"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_ui_ux_master_skill",
+      "target": "ui_ux_skills_skill_universal_ui_ux_workflow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L269",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_ui_ux_master_skill",
+      "target": "ui_ux_skills_skill_design_specialties_covered"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L369",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_ui_ux_master_skill",
+      "target": "ui_ux_skills_skill_ui_ux_audit_framework"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L396",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_ui_ux_master_skill",
+      "target": "ui_ux_skills_skill_screen_state_checklist"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L417",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_ui_ux_master_skill",
+      "target": "ui_ux_skills_skill_responsive_breakpoints_guidance"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L436",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_ui_ux_master_skill",
+      "target": "ui_ux_skills_skill_design_token_starter_set"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L470",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_ui_ux_master_skill",
+      "target": "ui_ux_skills_skill_handoff_output_template"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L490",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_ui_ux_master_skill",
+      "target": "ui_ux_skills_skill_quality_bar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L506",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_ui_ux_master_skill",
+      "target": "ui_ux_skills_skill_common_pitfalls"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L524",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_ui_ux_master_skill",
+      "target": "ui_ux_skills_skill_verification_checklist"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L542",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_ui_ux_master_skill",
+      "target": "ui_ux_skills_skill_supporting_files"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_required_agent_behavior",
+      "target": "ui_ux_skills_skill_ask_only_high_value_questions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_required_agent_behavior",
+      "target": "ui_ux_skills_skill_always_produce_useful_output"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_required_agent_behavior",
+      "target": "ui_ux_skills_skill_prefer_specifics_over_taste"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_universal_ui_ux_workflow",
+      "target": "ui_ux_skills_skill_phase_1_product_and_user_understanding"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L99",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_universal_ui_ux_workflow",
+      "target": "ui_ux_skills_skill_phase_2_ux_strategy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L112",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_universal_ui_ux_workflow",
+      "target": "ui_ux_skills_skill_phase_3_information_architecture"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L132",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_universal_ui_ux_workflow",
+      "target": "ui_ux_skills_skill_phase_4_user_flows"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L146",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_universal_ui_ux_workflow",
+      "target": "ui_ux_skills_skill_phase_5_wireframes_and_layout"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L169",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_universal_ui_ux_workflow",
+      "target": "ui_ux_skills_skill_phase_6_visual_design"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L191",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_universal_ui_ux_workflow",
+      "target": "ui_ux_skills_skill_phase_7_interaction_design"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L208",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_universal_ui_ux_workflow",
+      "target": "ui_ux_skills_skill_phase_8_accessibility_and_inclusive_design"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L229",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_universal_ui_ux_workflow",
+      "target": "ui_ux_skills_skill_phase_9_content_design_and_microcopy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L251",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_universal_ui_ux_workflow",
+      "target": "ui_ux_skills_skill_phase_10_prototype_and_handoff"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L271",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_design_specialties_covered",
+      "target": "ui_ux_skills_skill_product_ux"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L283",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_design_specialties_covered",
+      "target": "ui_ux_skills_skill_saas_and_dashboard_ux"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L294",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_design_specialties_covered",
+      "target": "ui_ux_skills_skill_landing_page_and_conversion_ux"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L308",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_design_specialties_covered",
+      "target": "ui_ux_skills_skill_ecommerce_ux"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L318",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_design_specialties_covered",
+      "target": "ui_ux_skills_skill_forms_ux"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L331",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_design_specialties_covered",
+      "target": "ui_ux_skills_skill_mobile_ux"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L343",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_design_specialties_covered",
+      "target": "ui_ux_skills_skill_design_systems"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L357",
+      "weight": 1.0,
+      "source": "ui_ux_skills_skill_design_specialties_covered",
+      "target": "ui_ux_skills_skill_top_brand_frontend_method",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SKILL.md",
+      "source_location": "L356",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_ux_skills_skill_design_specialties_covered",
+      "target": "ui_ux_skills_skill_frontend_implementation_ux"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_design_system_playbook_md",
+      "target": "references_design_system_playbook_design_system_playbook"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_design_system_playbook_design_system_playbook",
+      "target": "references_design_system_playbook_purpose"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_design_system_playbook_design_system_playbook",
+      "target": "references_design_system_playbook_foundations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_design_system_playbook_design_system_playbook",
+      "target": "references_design_system_playbook_component_specification_requirements"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_design_system_playbook_design_system_playbook",
+      "target": "references_design_system_playbook_minimum_component_set"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L116",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_design_system_playbook_design_system_playbook",
+      "target": "references_design_system_playbook_governance"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L124",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_design_system_playbook_design_system_playbook",
+      "target": "references_design_system_playbook_design_system_audit_questions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_design_system_playbook_foundations",
+      "target": "references_design_system_playbook_color"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_design_system_playbook_foundations",
+      "target": "references_design_system_playbook_typography"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_design_system_playbook_foundations",
+      "target": "references_design_system_playbook_spacing"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_design_system_playbook_foundations",
+      "target": "references_design_system_playbook_shape_and_elevation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/design-system-playbook.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_design_system_playbook_foundations",
+      "target": "references_design_system_playbook_motion"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "references_top_100_brand_website_analysis_md",
+      "target": "references_top_100_brand_website_analysis_top_100_global_brand_website_analysis",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "references_top_100_brand_website_analysis_top_100_global_brand_website_analysis",
+      "target": "references_top_100_brand_website_analysis_cross_brand_findings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "references_top_100_brand_website_analysis_top_100_global_brand_website_analysis",
+      "target": "references_top_100_brand_website_analysis_brand_by_brand_analysis_table",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L180",
+      "weight": 1.0,
+      "source": "references_top_100_brand_website_analysis_top_100_global_brand_website_analysis",
+      "target": "references_top_100_brand_website_analysis_reusable_top_brand_design_methods",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L288",
+      "weight": 1.0,
+      "source": "references_top_100_brand_website_analysis_top_100_global_brand_website_analysis",
+      "target": "references_top_100_brand_website_analysis_agent_usage_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "references_top_100_brand_website_analysis_cross_brand_findings",
+      "target": "references_top_100_brand_website_analysis_layout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "references_top_100_brand_website_analysis_cross_brand_findings",
+      "target": "references_top_100_brand_website_analysis_usability",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "references_top_100_brand_website_analysis_cross_brand_findings",
+      "target": "references_top_100_brand_website_analysis_branding",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "references_top_100_brand_website_analysis_cross_brand_findings",
+      "target": "references_top_100_brand_website_analysis_color_scheme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "references_top_100_brand_website_analysis_cross_brand_findings",
+      "target": "references_top_100_brand_website_analysis_ux_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "references_top_100_brand_website_analysis_cross_brand_findings",
+      "target": "references_top_100_brand_website_analysis_accessibility",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "references_top_100_brand_website_analysis_reusable_top_brand_design_methods",
+      "target": "references_top_100_brand_website_analysis_1_product_cinema_method",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L193",
+      "weight": 1.0,
+      "source": "references_top_100_brand_website_analysis_reusable_top_brand_design_methods",
+      "target": "references_top_100_brand_website_analysis_2_utility_command_center_method",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L204",
+      "weight": 1.0,
+      "source": "references_top_100_brand_website_analysis_reusable_top_brand_design_methods",
+      "target": "references_top_100_brand_website_analysis_3_editorial_brand_world_method",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L215",
+      "weight": 1.0,
+      "source": "references_top_100_brand_website_analysis_reusable_top_brand_design_methods",
+      "target": "references_top_100_brand_website_analysis_4_enterprise_trust_hub_method",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L226",
+      "weight": 1.0,
+      "source": "references_top_100_brand_website_analysis_reusable_top_brand_design_methods",
+      "target": "references_top_100_brand_website_analysis_5_card_based_discovery_method",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L237",
+      "weight": 1.0,
+      "source": "references_top_100_brand_website_analysis_reusable_top_brand_design_methods",
+      "target": "references_top_100_brand_website_analysis_6_conversion_simplicity_method",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L248",
+      "weight": 1.0,
+      "source": "references_top_100_brand_website_analysis_reusable_top_brand_design_methods",
+      "target": "references_top_100_brand_website_analysis_7_ecosystem_bundling_method",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L258",
+      "weight": 1.0,
+      "source": "references_top_100_brand_website_analysis_reusable_top_brand_design_methods",
+      "target": "references_top_100_brand_website_analysis_8_premium_restraint_method",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L268",
+      "weight": 1.0,
+      "source": "references_top_100_brand_website_analysis_reusable_top_brand_design_methods",
+      "target": "references_top_100_brand_website_analysis_9_playful_familiarity_method",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/top-100-brand-website-analysis.md",
+      "source_location": "L278",
+      "weight": 1.0,
+      "source": "references_top_100_brand_website_analysis_reusable_top_brand_design_methods",
+      "target": "references_top_100_brand_website_analysis_10_technical_authority_method",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_ui_ux_complete_checklist_md",
+      "target": "references_ui_ux_complete_checklist_ui_ux_complete_checklist"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_ui_ux_complete_checklist_ui_ux_complete_checklist",
+      "target": "references_ui_ux_complete_checklist_1_product_fit"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_ui_ux_complete_checklist_ui_ux_complete_checklist",
+      "target": "references_ui_ux_complete_checklist_2_information_architecture"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_ui_ux_complete_checklist_ui_ux_complete_checklist",
+      "target": "references_ui_ux_complete_checklist_3_user_flows"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_ui_ux_complete_checklist_ui_ux_complete_checklist",
+      "target": "references_ui_ux_complete_checklist_4_layout_and_hierarchy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_ui_ux_complete_checklist_ui_ux_complete_checklist",
+      "target": "references_ui_ux_complete_checklist_5_visual_design"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_ui_ux_complete_checklist_ui_ux_complete_checklist",
+      "target": "references_ui_ux_complete_checklist_6_components"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_ui_ux_complete_checklist_ui_ux_complete_checklist",
+      "target": "references_ui_ux_complete_checklist_7_state_coverage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L91",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_ui_ux_complete_checklist_ui_ux_complete_checklist",
+      "target": "references_ui_ux_complete_checklist_8_forms"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_ui_ux_complete_checklist_ui_ux_complete_checklist",
+      "target": "references_ui_ux_complete_checklist_9_content_and_microcopy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L116",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_ui_ux_complete_checklist_ui_ux_complete_checklist",
+      "target": "references_ui_ux_complete_checklist_10_accessibility"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L131",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_ui_ux_complete_checklist_ui_ux_complete_checklist",
+      "target": "references_ui_ux_complete_checklist_11_responsive_design"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L143",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_ui_ux_complete_checklist_ui_ux_complete_checklist",
+      "target": "references_ui_ux_complete_checklist_12_trust_safety_and_ethics"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L153",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_ui_ux_complete_checklist_ui_ux_complete_checklist",
+      "target": "references_ui_ux_complete_checklist_13_performance_perception"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-complete-checklist.md",
+      "source_location": "L162",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_ui_ux_complete_checklist_ui_ux_complete_checklist",
+      "target": "references_ui_ux_complete_checklist_14_handoff"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "references_ui_ux_frontend_implementation_rules_md",
+      "target": "references_ui_ux_frontend_implementation_rules_ui_ux_frontend_implementation_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "references_ui_ux_frontend_implementation_rules_ui_ux_frontend_implementation_rules",
+      "target": "references_ui_ux_frontend_implementation_rules_non_negotiable_rule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "references_ui_ux_frontend_implementation_rules_ui_ux_frontend_implementation_rules",
+      "target": "references_ui_ux_frontend_implementation_rules_required_implementation_order",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L337",
+      "weight": 1.0,
+      "source": "references_ui_ux_frontend_implementation_rules_ui_ux_frontend_implementation_rules",
+      "target": "references_ui_ux_frontend_implementation_rules_agent_stop_condition",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "references_ui_ux_frontend_implementation_rules_required_implementation_order",
+      "target": "references_ui_ux_frontend_implementation_rules_1_inspect_before_building",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "references_ui_ux_frontend_implementation_rules_required_implementation_order",
+      "target": "references_ui_ux_frontend_implementation_rules_2_define_the_ux_contract",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "references_ui_ux_frontend_implementation_rules_required_implementation_order",
+      "target": "references_ui_ux_frontend_implementation_rules_3_choose_the_design_method",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "references_ui_ux_frontend_implementation_rules_required_implementation_order",
+      "target": "references_ui_ux_frontend_implementation_rules_4_create_or_reuse_tokens",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "references_ui_ux_frontend_implementation_rules_required_implementation_order",
+      "target": "references_ui_ux_frontend_implementation_rules_5_build_layout_first",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "references_ui_ux_frontend_implementation_rules_required_implementation_order",
+      "target": "references_ui_ux_frontend_implementation_rules_6_build_components_with_complete_states",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "references_ui_ux_frontend_implementation_rules_required_implementation_order",
+      "target": "references_ui_ux_frontend_implementation_rules_7_accessibility_is_part_of_the_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "references_ui_ux_frontend_implementation_rules_required_implementation_order",
+      "target": "references_ui_ux_frontend_implementation_rules_8_responsive_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "references_ui_ux_frontend_implementation_rules_required_implementation_order",
+      "target": "references_ui_ux_frontend_implementation_rules_9_forms_and_validation_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L197",
+      "weight": 1.0,
+      "source": "references_ui_ux_frontend_implementation_rules_required_implementation_order",
+      "target": "references_ui_ux_frontend_implementation_rules_10_content_and_microcopy_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L210",
+      "weight": 1.0,
+      "source": "references_ui_ux_frontend_implementation_rules_required_implementation_order",
+      "target": "references_ui_ux_frontend_implementation_rules_11_branding_and_visual_quality_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L231",
+      "weight": 1.0,
+      "source": "references_ui_ux_frontend_implementation_rules_required_implementation_order",
+      "target": "references_ui_ux_frontend_implementation_rules_12_data_and_api_ux_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L247",
+      "weight": 1.0,
+      "source": "references_ui_ux_frontend_implementation_rules_required_implementation_order",
+      "target": "references_ui_ux_frontend_implementation_rules_13_navigation_and_ia_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L260",
+      "weight": 1.0,
+      "source": "references_ui_ux_frontend_implementation_rules_required_implementation_order",
+      "target": "references_ui_ux_frontend_implementation_rules_14_performance_perception_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L274",
+      "weight": 1.0,
+      "source": "references_ui_ux_frontend_implementation_rules_required_implementation_order",
+      "target": "references_ui_ux_frontend_implementation_rules_15_security_trust_and_ethics_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L295",
+      "weight": 1.0,
+      "source": "references_ui_ux_frontend_implementation_rules_required_implementation_order",
+      "target": "references_ui_ux_frontend_implementation_rules_16_frontend_qa_checklist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/ui-ux-frontend-implementation-rules.md",
+      "source_location": "L322",
+      "weight": 1.0,
+      "source": "references_ui_ux_frontend_implementation_rules_required_implementation_order",
+      "target": "references_ui_ux_frontend_implementation_rules_17_implementation_handoff_checklist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_wcag_aa_quick_reference_md",
+      "target": "references_wcag_aa_quick_reference_wcag_2_2_aa_quick_reference_for_agents"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_wcag_aa_quick_reference_wcag_2_2_aa_quick_reference_for_agents",
+      "target": "references_wcag_aa_quick_reference_core_principles"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_wcag_aa_quick_reference_wcag_2_2_aa_quick_reference_for_agents",
+      "target": "references_wcag_aa_quick_reference_contrast"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_wcag_aa_quick_reference_wcag_2_2_aa_quick_reference_for_agents",
+      "target": "references_wcag_aa_quick_reference_keyboard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_wcag_aa_quick_reference_wcag_2_2_aa_quick_reference_for_agents",
+      "target": "references_wcag_aa_quick_reference_semantic_structure"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_wcag_aa_quick_reference_wcag_2_2_aa_quick_reference_for_agents",
+      "target": "references_wcag_aa_quick_reference_forms"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_wcag_aa_quick_reference_wcag_2_2_aa_quick_reference_for_agents",
+      "target": "references_wcag_aa_quick_reference_motion_and_timing"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_wcag_aa_quick_reference_wcag_2_2_aa_quick_reference_for_agents",
+      "target": "references_wcag_aa_quick_reference_images_and_media"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_wcag_aa_quick_reference_wcag_2_2_aa_quick_reference_for_agents",
+      "target": "references_wcag_aa_quick_reference_touch_and_pointer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_wcag_aa_quick_reference_wcag_2_2_aa_quick_reference_for_agents",
+      "target": "references_wcag_aa_quick_reference_common_agent_fixes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "references/wcag-aa-quick-reference.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_wcag_aa_quick_reference_wcag_2_2_aa_quick_reference_for_agents",
+      "target": "references_wcag_aa_quick_reference_accessibility_acceptance_criteria"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_component_spec_md",
+      "target": "templates_component_spec_component_spec"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_component_spec_component_spec",
+      "target": "templates_component_spec_component_name"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_component_spec_component_spec",
+      "target": "templates_component_spec_purpose"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_component_spec_component_spec",
+      "target": "templates_component_spec_anatomy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_component_spec_component_spec",
+      "target": "templates_component_spec_variants"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_component_spec_component_spec",
+      "target": "templates_component_spec_sizes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_component_spec_component_spec",
+      "target": "templates_component_spec_states"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_component_spec_component_spec",
+      "target": "templates_component_spec_behavior"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_component_spec_component_spec",
+      "target": "templates_component_spec_accessibility"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_component_spec_component_spec",
+      "target": "templates_component_spec_content_guidelines"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_component_spec_component_spec",
+      "target": "templates_component_spec_responsive_behavior"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_component_spec_component_spec",
+      "target": "templates_component_spec_tokens_used"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_component_spec_component_spec",
+      "target": "templates_component_spec_implementation_notes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L96",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_component_spec_component_spec",
+      "target": "templates_component_spec_usage_examples"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_component_spec_usage_examples",
+      "target": "templates_component_spec_good"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/component-spec.md",
+      "source_location": "L100",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_component_spec_usage_examples",
+      "target": "templates_component_spec_bad"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_design_system_spec_md",
+      "target": "templates_design_system_spec_design_system_spec"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_design_system_spec_design_system_spec",
+      "target": "templates_design_system_spec_system_overview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_design_system_spec_design_system_spec",
+      "target": "templates_design_system_spec_foundations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_design_system_spec_design_system_spec",
+      "target": "templates_design_system_spec_components"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_design_system_spec_design_system_spec",
+      "target": "templates_design_system_spec_patterns"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_design_system_spec_design_system_spec",
+      "target": "templates_design_system_spec_governance"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_design_system_spec_foundations",
+      "target": "templates_design_system_spec_color_tokens"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_design_system_spec_foundations",
+      "target": "templates_design_system_spec_typography_tokens"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_design_system_spec_foundations",
+      "target": "templates_design_system_spec_spacing_tokens"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_design_system_spec_foundations",
+      "target": "templates_design_system_spec_radius_elevation_motion"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_design_system_spec_components",
+      "target": "templates_design_system_spec_button"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_design_system_spec_components",
+      "target": "templates_design_system_spec_input"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_design_system_spec_components",
+      "target": "templates_design_system_spec_select_combobox"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_design_system_spec_components",
+      "target": "templates_design_system_spec_checkbox_radio_switch"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_design_system_spec_components",
+      "target": "templates_design_system_spec_modal_dialog"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_design_system_spec_components",
+      "target": "templates_design_system_spec_toast_alert"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_design_system_spec_components",
+      "target": "templates_design_system_spec_card"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_design_system_spec_components",
+      "target": "templates_design_system_spec_table_data_grid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_design_system_spec_components",
+      "target": "templates_design_system_spec_navigation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/design-system-spec.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_design_system_spec_components",
+      "target": "templates_design_system_spec_empty_state"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "templates_top_brand_frontend_spec_md",
+      "target": "templates_top_brand_frontend_spec_top_brand_frontend_spec_template",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "templates_top_brand_frontend_spec_top_brand_frontend_spec_template",
+      "target": "templates_top_brand_frontend_spec_1_product_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "templates_top_brand_frontend_spec_top_brand_frontend_spec_template",
+      "target": "templates_top_brand_frontend_spec_2_brand_inspiration_blend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "templates_top_brand_frontend_spec_top_brand_frontend_spec_template",
+      "target": "templates_top_brand_frontend_spec_3_ux_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "templates_top_brand_frontend_spec_top_brand_frontend_spec_template",
+      "target": "templates_top_brand_frontend_spec_4_layout_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "templates_top_brand_frontend_spec_top_brand_frontend_spec_template",
+      "target": "templates_top_brand_frontend_spec_5_visual_language",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "templates_top_brand_frontend_spec_top_brand_frontend_spec_template",
+      "target": "templates_top_brand_frontend_spec_6_components",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "templates_top_brand_frontend_spec_top_brand_frontend_spec_template",
+      "target": "templates_top_brand_frontend_spec_7_states",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "templates_top_brand_frontend_spec_top_brand_frontend_spec_template",
+      "target": "templates_top_brand_frontend_spec_8_accessibility",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "templates_top_brand_frontend_spec_top_brand_frontend_spec_template",
+      "target": "templates_top_brand_frontend_spec_9_copy_system",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "templates_top_brand_frontend_spec_top_brand_frontend_spec_template",
+      "target": "templates_top_brand_frontend_spec_10_implementation_notes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/top-brand-frontend-spec.md",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "templates_top_brand_frontend_spec_top_brand_frontend_spec_template",
+      "target": "templates_top_brand_frontend_spec_11_do_not_copy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_audit_report_md",
+      "target": "templates_ui_ux_audit_report_ui_ux_audit_report"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_audit_report_ui_ux_audit_report",
+      "target": "templates_ui_ux_audit_report_executive_summary"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_audit_report_ui_ux_audit_report",
+      "target": "templates_ui_ux_audit_report_scope"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_audit_report_ui_ux_audit_report",
+      "target": "templates_ui_ux_audit_report_scorecard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_audit_report_ui_ux_audit_report",
+      "target": "templates_ui_ux_audit_report_severity_ranked_findings"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_audit_report_ui_ux_audit_report",
+      "target": "templates_ui_ux_audit_report_quick_wins"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_audit_report_ui_ux_audit_report",
+      "target": "templates_ui_ux_audit_report_recommended_revised_structure"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_audit_report_ui_ux_audit_report",
+      "target": "templates_ui_ux_audit_report_copy_improvements"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_audit_report_ui_ux_audit_report",
+      "target": "templates_ui_ux_audit_report_accessibility_fixes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_audit_report_ui_ux_audit_report",
+      "target": "templates_ui_ux_audit_report_responsive_fixes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L105",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_audit_report_ui_ux_audit_report",
+      "target": "templates_ui_ux_audit_report_qa_checklist"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_audit_report_severity_ranked_findings",
+      "target": "templates_ui_ux_audit_report_critical"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_audit_report_severity_ranked_findings",
+      "target": "templates_ui_ux_audit_report_high"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_audit_report_severity_ranked_findings",
+      "target": "templates_ui_ux_audit_report_medium"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-audit-report.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_audit_report_severity_ranked_findings",
+      "target": "templates_ui_ux_audit_report_low"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-brief.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_brief_md",
+      "target": "templates_ui_ux_brief_ui_ux_brief"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-brief.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_brief_ui_ux_brief",
+      "target": "templates_ui_ux_brief_project"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-brief.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_brief_ui_ux_brief",
+      "target": "templates_ui_ux_brief_goal"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-brief.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_brief_ui_ux_brief",
+      "target": "templates_ui_ux_brief_users"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-brief.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_brief_ui_ux_brief",
+      "target": "templates_ui_ux_brief_current_problem"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-brief.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_brief_ui_ux_brief",
+      "target": "templates_ui_ux_brief_constraints"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-brief.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_brief_ui_ux_brief",
+      "target": "templates_ui_ux_brief_competitive_reference_direction"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-brief.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_brief_ui_ux_brief",
+      "target": "templates_ui_ux_brief_deliverables_needed"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-brief.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_brief_ui_ux_brief",
+      "target": "templates_ui_ux_brief_assumptions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "templates/ui-ux-brief.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "templates_ui_ux_brief_ui_ux_brief",
+      "target": "templates_ui_ux_brief_open_questions"
+    }
+  ],
+  "hyperedges": []
+}
