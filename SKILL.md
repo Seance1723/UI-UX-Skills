@@ -1,7 +1,7 @@
 ---
 name: ui-ux-master
 description: "Use when an agent must design, audit, improve, prototype, specify, or hand off any UI/UX work end-to-end. Provides one-stop UX strategy, research, IA, flows, wireframes, visual design, design systems, accessibility, usability testing, conversion, and engineering handoff workflows."
-version: 1.2.0
+version: 1.2.1
 author: Rupak Biswas
 license: MIT
 platforms: [linux, macos, windows]

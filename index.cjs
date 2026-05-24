@@ -5,7 +5,7 @@ const path = require('node:path');
 const packageRoot = __dirname;
 
 const name = 'ui-ux-master';
-const version = '1.2.0';
+const version = '1.2.1';
 const trigger = '/ui-ux-master';
 
 const bins = Object.freeze({

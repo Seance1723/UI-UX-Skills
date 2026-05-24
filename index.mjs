@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 const packageRoot = path.dirname(fileURLToPath(import.meta.url));
 
 export const name = 'ui-ux-master';
-export const version = '1.2.0';
+export const version = '1.2.1';
 export const trigger = '/ui-ux-master';
 
 export const bins = Object.freeze({

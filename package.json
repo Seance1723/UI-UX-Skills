@@ -1,6 +1,6 @@
 {
   "name": "ui-ux-master",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Opt-in UI/UX master skill, CLI, and MCP server for AI coding agents, with accessibility, design-system, UX research, and frontend handoff workflows.",
   "type": "module",
   "packageManager": "npm@11.14.0",

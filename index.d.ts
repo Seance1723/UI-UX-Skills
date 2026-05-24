@@ -1,5 +1,5 @@
 export declare const name = "ui-ux-master";
-export declare const version = "1.2.0";
+export declare const version = "1.2.1";
 export declare const trigger = "/ui-ux-master";
 
 export declare const bins: Readonly<{
