@@ -118,7 +118,28 @@ npx ui-ux-master install --project --dry-run
 | GitHub | [`Seance1723/UI-UX-Skills`](https://github.com/Seance1723/UI-UX-Skills) | Source, issues, releases, workflows, and open-source collaboration |
 | GitHub Packages | Optional scoped mirror | Use only if you want the repository Packages section to show a package |
 
-The canonical npm package is intentionally unscoped as `ui-ux-master`. GitHub Packages requires npm packages to be scoped, so a GitHub Packages mirror should use `@seance1723/ui-ux-master` while the public npmjs package remains `ui-ux-master`.
+The canonical npm package is intentionally unscoped as `ui-ux-master`. Keep that name in `package.json` for normal npmjs publishing. GitHub Packages requires npm packages to be scoped, so the release workflow temporarily changes the package name to `@seance1723/ui-ux-master` only inside the GitHub Packages publish job. The source package remains `ui-ux-master`.
+
+Install from npmjs:
+
+```bash
+npm install ui-ux-master
+```
+
+Install the optional GitHub Packages mirror:
+
+```bash
+npm install @seance1723/ui-ux-master
+```
+
+GitHub Packages often requires authentication even for installs. If npm cannot access the scoped package, configure a token with `read:packages` access:
+
+```ini
+@seance1723:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}
+```
+
+Publishing the scoped mirror to GitHub Packages is what makes the package appear in the repository's Packages section.
 
 Package entrypoints:
 

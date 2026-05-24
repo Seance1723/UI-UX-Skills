@@ -21,9 +21,9 @@ The GitHub "No packages published" message does not mean the npmjs package is br
 
 ## GitHub Packages Setup
 
-Do not add a root `.npmrc` that changes the default registry, because that can accidentally route normal installs away from npmjs.
+The root `.npmrc` intentionally configures only the `@seance1723` scope. It does not change the default registry, so normal `npm install ui-ux-master` and `npm publish` for the unscoped npmjs package still use npmjs.
 
-Use this scoped configuration only when publishing or installing the GitHub Packages mirror:
+Scoped GitHub Packages configuration:
 
 ```ini
 @seance1723:registry=https://npm.pkg.github.com
@@ -36,13 +36,15 @@ Local install from GitHub Packages:
 npm install @seance1723/ui-ux-master --registry=https://npm.pkg.github.com
 ```
 
+Many GitHub Packages installs require authentication. Use a token with `read:packages` for installs and `write:packages` for publishing.
+
 ## Secrets
 
 Add these repository secrets:
 
 - `NPM_TOKEN` - npm automation token with publish access to `ui-ux-master`.
 
-GitHub Packages publishing uses the built-in `GITHUB_TOKEN` in Actions.
+GitHub Packages publishing uses the built-in `GITHUB_TOKEN` in Actions. The workflow temporarily changes the package name to `@seance1723/ui-ux-master` only for that publish job, then publishes to `https://npm.pkg.github.com/`. Do not permanently rename the root package unless you intentionally want to migrate away from the public unscoped npmjs package.
 
 ## Release Strategy
 

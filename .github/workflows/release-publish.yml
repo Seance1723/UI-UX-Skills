@@ -78,7 +78,20 @@ jobs:
       - name: Install
         run: npm ci
 
+      - name: Check npmjs version
+        id: npmjs
+        shell: bash
+        run: |
+          VERSION="${{ needs.verify.outputs.version }}"
+          if npm view "ui-ux-master@$VERSION" version --registry=https://registry.npmjs.org/ >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "ui-ux-master@$VERSION already exists on npmjs; skipping publish."
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Publish
+        if: steps.npmjs.outputs.exists != 'true'
         run: npm publish --access public --provenance
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -114,7 +127,22 @@ jobs:
           npm pkg set publishConfig.registry="https://npm.pkg.github.com/"
           npm pkg delete publishConfig.provenance
 
+      - name: Check GitHub Packages version
+        id: github_packages
+        shell: bash
+        run: |
+          VERSION="${{ needs.verify.outputs.version }}"
+          if npm view "@seance1723/ui-ux-master@$VERSION" version --registry=https://npm.pkg.github.com/ >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "@seance1723/ui-ux-master@$VERSION already exists on GitHub Packages; skipping publish."
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Publish scoped mirror
+        if: steps.github_packages.outputs.exists != 'true'
         run: npm publish --access public --ignore-scripts
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
