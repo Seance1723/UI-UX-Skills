@@ -4,8 +4,10 @@ const path = require('node:path');
 
 const packageRoot = __dirname;
 
+const _pkg = require('./package.json');
+
 const name = 'ui-ux-master';
-const version = '1.2.1';
+const version = _pkg.version;
 const trigger = '/ui-ux-master';
 
 const bins = Object.freeze({

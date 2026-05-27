@@ -1,10 +1,13 @@
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createRequire } from 'node:module';
 
 const packageRoot = path.dirname(fileURLToPath(import.meta.url));
+const _require = createRequire(import.meta.url);
+const _pkg = _require('./package.json');
 
 export const name = 'ui-ux-master';
-export const version = '1.2.1';
+export const version = _pkg.version;
 export const trigger = '/ui-ux-master';
 
 export const bins = Object.freeze({

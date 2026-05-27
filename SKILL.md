@@ -46,7 +46,7 @@ Do not jump directly to visuals. Work in this order unless the user explicitly a
 4. Understand the product, users, goal, platform, constraints, evidence available, research confidence, and success metric.
 5. Define the UX model: audience, jobs-to-be-done, journeys, service touchpoints, information architecture, flows, states, and content.
 6. **Industry reasoning.** Load `references/industry-reasoning-rules.md`. Match the user's product to an industry category and output the full Design System Block (pattern + style + colors + typography + effects + anti-patterns) in one step before designing.
-6a. Select an appropriate top-brand design method when frontend polish is requested. Load the corresponding `references/brand-method-*.md` file: Product Cinema, Utility Command Center, Editorial Brand World, Enterprise Trust Hub, Card-Based Discovery, Conversion Simplicity, Ecosystem Bundling, Premium Restraint, Playful Familiarity, or Technical Authority.
+6a. Select an appropriate top-brand design method when frontend polish is requested. Load the corresponding brand-method skill file from references/: `references/brand-method-product-cinema.md`, `references/brand-method-utility-command-center.md`, `references/brand-method-editorial-brand-world.md`, `references/brand-method-enterprise-trust-hub.md`, `references/brand-method-card-based-discovery.md`, `references/brand-method-conversion-simplicity.md`, `references/brand-method-ecosystem-bundling.md`, `references/brand-method-premium-restraint.md`, `references/brand-method-playful-familiarity.md`, or `references/brand-method-technical-authority.md`.
 6b. Apply color psychology: load `references/color-psychology-branding.md`, identify the industry and sentiment, prescribe a complete palette with contrast ratios and rationale before any visual design begins. Use `references/color-scale-system.md` to generate full 11-step (50–950) OKLch color scales for the brand primary, neutral, and all semantic colors.
 6c. Select a UI style from `references/ui-styles-catalog.md`. Apply the style's token overrides on top of the visual direction baseline.
 7. **Junior designer warm-up.** For high-fidelity requests, show a wireframe sketch (grey blocks, real layout) first. Confirm direction before applying brand and polish. Skip if the user explicitly requests final output or provides a detailed reference.
@@ -467,7 +467,7 @@ When the user asks for a frontend that looks polished, premium, world-class, or 
 Process:
 
 1. Identify the product category and user task.
-2. Pick one primary method and one or two supporting methods. Load the corresponding `references/brand-method-*.md` file for full layout, color, typography, spacing, motion, accessibility, and component specs:
+2. Pick one primary method and one or two supporting methods. Load the corresponding brand-method skill file for full layout, color, typography, spacing, motion, accessibility, and component specs:
    - **Product Cinema** → `references/brand-method-product-cinema.md` — premium products, hardware, automotive, luxury.
    - **Utility Command Center** → `references/brand-method-utility-command-center.md` — ecommerce, logistics, booking, dashboards.
    - **Editorial Brand World** → `references/brand-method-editorial-brand-world.md` — fashion, sports, beverage, entertainment.
