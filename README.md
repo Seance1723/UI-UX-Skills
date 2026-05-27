@@ -9,7 +9,9 @@
 
 **The ultimate UI/UX skill for AI coding agents.** Turn your AI into a Senior Product Designer, UX Researcher, and Frontend Lead in seconds.
 
-> **v1.4.0** — Discovery question form protocol, 5-dimensional self-critique output quality gates, anti-AI-slop blacklist, brand extraction protocol, 5 ready-to-bind OKLch visual directions, and portable 9-section design system schema. Built from a deep audit of [open-design](https://github.com/nexu-io/open-design/) to close the remaining gaps.
+> **v1.5.0** — 20+ named UI styles catalog, 11-step (50–950) OKLch architectural color scales, industry reasoning engine (15+ categories), 16-framework tech stack guidelines, 12 landing page conversion patterns + 25-chart visualization guide, code-level AI audit error codes (AI001–AI030), and MASTER + page-override design system hierarchy.
+>
+> **v1.4.0** — Discovery question form protocol, 5-dimensional self-critique output quality gates, anti-AI-slop blacklist, brand extraction protocol, 5 ready-to-bind OKLch visual directions, and portable 9-section design system schema.
 >
 > **v1.3.0** — 10 dedicated brand-method skill files + Color Psychology and Branding skill.
 
@@ -59,6 +61,12 @@ By installing this tool, you instantly give **Claude**, **Cursor**, **Windsurf**
 | No output quality gate | 5-dimensional self-critique (philosophy/hierarchy/execution/specificity/restraint) + P0/P1/P2 gates before every emit |
 | Generic AI output patterns | Anti-AI-slop blacklist: purple gradient heroes, left-border accent cards, generic emojis, Inter as display, invented metrics all explicitly forbidden |
 | Inconsistent design tokens per session | Portable 9-section design system schema (DESIGN.md-compatible) as the single source of truth for every project |
+| Only 5–7 semantic color tokens | Full 11-step (50–950) OKLch architectural color scales for every brand hue + semantic colors + dark mode mappings |
+| No named UI style system | 20+ named styles (Glassmorphism, Liquid Glass, Data Brutalism, Aurora, Cyberpunk, AI-Native, Spatial UI, Bento Grid, etc.) with complete token overrides and anti-patterns |
+| Generic design output regardless of industry | Industry reasoning engine: input product description → instant Design System Block (pattern + style + palette + typography + effects + anti-patterns) |
+| No framework-specific guidance | 16 tech stacks: React, Next.js, Vue, Nuxt, Angular, Svelte, Astro, Remix, SolidJS, React Native, Flutter, SwiftUI, shadcn/ui, Jetpack Compose, Laravel, HTML+Tailwind — each with component patterns, rules, and common AI mistakes |
+| No landing page structure guidance | 12 named conversion patterns with section-by-section structure + 25-type chart selection guide |
+| No code-level audit | AI error codes AI001–AI030: Tailwind interpolation, hallucinated utilities, missing a11y, React anti-patterns, invented metrics — with severity and line number |
 
 ## AI Discoverability
 
@@ -92,7 +100,14 @@ UI/UX Master can help agents produce:
 - **NEW v1.4.0:** Visual directions — 5 fully-specified OKLch token directions (Neutral Modern, Dark Technical, Warm Editorial, Bold Energetic, Calm Trust) with complete CSS token blocks for brandless projects
 - **NEW v1.4.0:** Output quality gates — 5-dimensional self-critique scored before every emit; P0/P1/P2 hard gates; anti-AI-slop blacklist (purple gradients, generic emojis, invented metrics, Inter-as-hero and 10+ other forbidden patterns explicitly banned)
 - **NEW v1.4.0:** Design system schema — portable 9-section format (color, typography, spacing, layout, components, motion, voice, brand, anti-patterns) compatible with the DESIGN.md convention; used as the template for all `.ui-ux-memory.md` files
-- **NEW v1.4.0:** Junior designer warm-up — wireframe-first pass for high-fidelity requests, confirms layout before applying brand and polish
+- **NEW v1.5.0:** UI styles catalog — 20+ named styles with complete CSS token overrides, required effects, forbidden patterns, and a style-selection decision tree
+- **NEW v1.5.0:** 11-step OKLch color scales — architectural (50–950) ramps for every brand hue family, semantic state colors, dark mode mappings, and full px+rem typography scale
+- **NEW v1.5.0:** Industry reasoning engine — 15+ categories (B2B SaaS, Fintech, Healthcare, E-commerce, Dev Tools, AI, Wellness, Food, Education, Gaming, Luxury, Crypto, Enterprise, Portfolio) each with instant Design System Block output
+- **NEW v1.5.0:** 16-framework tech stack guidelines — component patterns, stack-specific rules, and common AI mistakes for every major web and mobile framework
+- **NEW v1.5.0:** Landing page patterns — 12 conversion patterns (Hero-Centric, Problem-Solution, Social Proof First, Comparison, Product Demo First, etc.) + 25-type chart guide with dashboard layout rules
+- **NEW v1.5.0:** Code-level AI audit — 30 error codes (AI001–AI030) covering Tailwind/CSS errors, accessibility violations, React anti-patterns, and content/copy issues with severity levels
+- **NEW v1.5.0:** MASTER + page overrides hierarchy — `design-system/MASTER.md` + `pages/[page].md` override pattern for multi-page consistency
+- **NEW v1.4.0:** Discovery protocol, quality gates, anti-slop blacklist, 5 visual directions, design system schema
 - **v1.3.0:** 10 top-brand design method skill files + Color Psychology and Branding skill
 
 ## Install with npm
@@ -323,7 +338,8 @@ UI/UX Master is designed to outperform narrow UI prompt packs and simple design 
 10. Color psychology branding: industry-by-industry palette prescriptions, sentiment-to-color mapping, WCAG contrast verification, and dark mode adaptation.
 11. **NEW v1.4.0:** Discovery-first workflow: structured intake before visuals, brand extraction protocol, visual directions for brandless projects, junior-designer warm-up pass.
 12. **NEW v1.4.0:** Quality-gated output: 5-dimensional self-critique + P0/P1/P2 gates + anti-slop blacklist enforce professional output standards before any emit.
-13. **NEW v1.4.0:** Portable design system schema: 9-section DESIGN.md-compatible format as the project memory backbone, ensuring token consistency across every session.
+13. Portable design system schema: 9-section DESIGN.md-compatible format as the project memory backbone, ensuring token consistency across every session.
+14. **NEW v1.5.0:** UI styles catalog (20+), 11-step OKLch color scales, industry reasoning engine (15+ categories), 16-framework tech stack guidelines, 12 landing page patterns, 25-type chart guide, and code-level AI audit error codes (AI001–AI030).
 
 ## Deployment Readiness Checklist
 

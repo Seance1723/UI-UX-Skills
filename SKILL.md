@@ -1,7 +1,7 @@
 ---
 name: ui-ux-master
 description: "Use when an agent must design, audit, improve, prototype, specify, or hand off any UI/UX work end-to-end. Provides one-stop UX strategy, research, IA, flows, wireframes, visual design, design systems, accessibility, usability testing, conversion, and engineering handoff workflows."
-version: 1.4.0
+version: 1.5.0
 author: Rupak Biswas
 license: MIT
 platforms: [linux, macos, windows]
@@ -45,10 +45,12 @@ Do not jump directly to visuals. Work in this order unless the user explicitly a
 3. **Check project memory.** Look for `.ui-ux-memory.md` at the project root. If it exists, read all 9 sections (schema defined in `references/design-system-schema.md`) before designing. If it does not exist, create it using the schema after discovery completes.
 4. Understand the product, users, goal, platform, constraints, evidence available, research confidence, and success metric.
 5. Define the UX model: audience, jobs-to-be-done, journeys, service touchpoints, information architecture, flows, states, and content.
-6. Select an appropriate top-brand design method when frontend polish is requested. Load the corresponding `references/brand-method-*.md` file: Product Cinema, Utility Command Center, Editorial Brand World, Enterprise Trust Hub, Card-Based Discovery, Conversion Simplicity, Ecosystem Bundling, Premium Restraint, Playful Familiarity, or Technical Authority.
-6a. Apply color psychology: load `references/color-psychology-branding.md`, identify the industry and sentiment, prescribe a complete palette with contrast ratios and rationale before any visual design begins.
+6. **Industry reasoning.** Load `references/industry-reasoning-rules.md`. Match the user's product to an industry category and output the full Design System Block (pattern + style + colors + typography + effects + anti-patterns) in one step before designing.
+6a. Select an appropriate top-brand design method when frontend polish is requested. Load the corresponding `references/brand-method-*.md` file: Product Cinema, Utility Command Center, Editorial Brand World, Enterprise Trust Hub, Card-Based Discovery, Conversion Simplicity, Ecosystem Bundling, Premium Restraint, Playful Familiarity, or Technical Authority.
+6b. Apply color psychology: load `references/color-psychology-branding.md`, identify the industry and sentiment, prescribe a complete palette with contrast ratios and rationale before any visual design begins. Use `references/color-scale-system.md` to generate full 11-step (50–950) OKLch color scales for the brand primary, neutral, and all semantic colors.
+6c. Select a UI style from `references/ui-styles-catalog.md`. Apply the style's token overrides on top of the visual direction baseline.
 7. **Junior designer warm-up.** For high-fidelity requests, show a wireframe sketch (grey blocks, real layout) first. Confirm direction before applying brand and polish. Skip if the user explicitly requests final output or provides a detailed reference.
-8. Design the interface by extending the established brand/direction baseline. Apply only tokens from the schema — no ad-hoc magic values.
+8. Design the interface by extending the established brand/direction baseline. Apply only tokens from the schema — no ad-hoc magic values. Apply stack-specific rules from `references/tech-stack-guidelines.md` for the user's chosen framework. For landing pages and marketing pages, follow the appropriate conversion pattern from `references/landing-page-patterns.md`. For dashboards, use the chart type guide in that same file.
 9. **Quality gates before any emit.** Load `references/output-quality-gates.md`. Run the 5-dimensional self-critique (philosophy/hierarchy/execution/specificity/restraint), pass all P0 hard gates, and clear the anti-slop blacklist. Fix and rescore until all dimensions ≥ 3. Do not emit output until all gates pass.
 10. Validate: consistency with memory, research evidence, heuristics, WCAG, platform conventions, usability risks, i18n, ethics/privacy, edge cases, technical feasibility, metrics, and brand-fit.
 11. Update `.ui-ux-memory.md` with any new durable design decisions before handoff.
@@ -724,6 +726,11 @@ Use the supporting files in this skill folder when useful:
 - `references/ui-ux-frontend-implementation-rules.md` — mandatory frontend implementation rules so agents do not miss stack inspection, states, accessibility, responsiveness, tokens, QA, or handoff.
 - `references/wcag-aa-quick-reference.md` — practical WCAG 2.2 AA reference for agents.
 - `references/design-system-playbook.md` — how to create or extend a design system.
+- `references/ui-styles-catalog.md` — 20+ named UI styles (Glassmorphism, Liquid Glass, Data Brutalism, Aurora Borealis, AI-Native UI, Spatial UI, Cyberpunk, Claymorphism, Bento Grid, Soft UI Evolution, and more) with token overrides, required effects, forbidden patterns, and a style selection decision tree.
+- `references/color-scale-system.md` — 11-step (50–950) OKLch architectural color scales for all brand hue families and semantic states. Semantic role-to-step mapping and dark mode overrides. Full px+rem typography scale.
+- `references/industry-reasoning-rules.md` — one-step reasoning engine: input a product description, output a complete Design System Block (pattern, style, colors, typography, effects, anti-patterns, pre-delivery checklist) for 15+ industry categories.
+- `references/tech-stack-guidelines.md` — stack-specific component patterns, rules, and common AI mistakes for 16 frameworks: React, Next.js, Vue, Nuxt, Angular, Svelte, Astro, Remix, SolidJS, React Native, Flutter, SwiftUI, shadcn/ui, Jetpack Compose, Laravel, HTML+Tailwind.
+- `references/landing-page-patterns.md` — 12 named conversion patterns (Hero-Centric, Problem-Solution, Product Demo First, Comparison, etc.) with section-by-section structure. Plus 25-type chart selection guide with dashboard layout rules and data visualization anti-patterns.
 - `references/design-discovery-protocol.md` — 6-question discovery form, brand extraction 5-step protocol, junior designer warm-up, and discovery checklist. Load at the start of every new design task.
 - `references/output-quality-gates.md` — 5-dimensional self-critique (philosophy/hierarchy/execution/specificity/restraint), P0/P1/P2 hard gates, anti-AI-slop blacklist, and honest placeholder protocol. Run before every design emit.
 - `references/visual-directions.md` — 5 fully-specified OKLch token directions (Neutral Modern, Dark Technical, Warm Editorial, Bold Energetic, Calm Trust) for projects with no brand. Each direction includes complete CSS token block ready to bind.

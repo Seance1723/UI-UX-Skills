@@ -324,3 +324,84 @@ Record project-specific patterns that have been tried and rejected, in addition 
 4. **Anti-patterns are permanent.** Once a pattern is added to Section 9, it stays unless explicitly reversed by the user.
 5. **Version the schema.** Update the "Last updated" line at the bottom of Section 9 after every meaningful change.
 6. **The schema is not a spec.** It records decisions, not deliverables. Component specs and screen specs live in `templates/component-spec.md` and `templates/ui-ux-brief.md`.
+
+---
+
+## MASTER + Page Overrides Hierarchy
+
+For multi-page products, use a hierarchical design system file structure. This prevents global tokens from being re-established per page and allows page-specific deviations without polluting the master.
+
+### File Structure
+
+```
+design-system/
+├── MASTER.md          ← Global source of truth (all 9 sections)
+└── pages/
+    ├── landing.md     ← Landing page overrides only
+    ├── dashboard.md   ← Dashboard overrides only
+    ├── checkout.md    ← Checkout overrides only
+    ├── onboarding.md  ← Onboarding overrides only
+    └── [page].md      ← Any page-specific deviations
+```
+
+### MASTER.md
+
+Contains the full 9-section schema. This is the global design system. Every page inherits from it unless overridden.
+
+### pages/[page].md
+
+Contains **only the deviations** from the master. Do not repeat tokens from MASTER.md — only write what is different.
+
+**Example `pages/dashboard.md`:**
+```markdown
+# Dashboard — Design System Overrides
+
+Inherits from: design-system/MASTER.md
+
+## Color Overrides
+- --color-bg: var(--neutral-950)  ← Dark mode for dashboard only
+- --color-surface: var(--neutral-900)
+- --color-text-primary: var(--neutral-50)
+
+## Layout Overrides
+- Grid: sidebar (240px fixed) + main content (fluid)
+- No hero section
+- Compact spacing: --space-4 for most gaps (vs. --space-6 in master)
+
+## Component Overrides
+- Nav: Left sidebar (not top nav from master)
+- Cards: Dense data variant — --space-4 inner padding (vs. --space-6)
+```
+
+### Retrieval Protocol
+
+When building any page, always follow this lookup order:
+
+```
+1. Check if design-system/pages/[current-page].md exists.
+2. If YES → Read the page file. Its rules override the master for this page.
+3. Read design-system/MASTER.md for everything NOT overridden in the page file.
+4. Combined rules = the complete design system for this page.
+```
+
+**Context-aware prompt pattern:**
+```
+I am building the [Page Name] page.
+Please read design-system/MASTER.md for the global design system.
+Also check if design-system/pages/[page-name].md exists.
+If it exists, apply its rules as overrides on top of the master.
+If not, use MASTER.md exclusively.
+```
+
+### When to Create a Page Override
+
+Create a page override file when:
+- The page uses a significantly different layout (sidebar nav, full-bleed, etc.)
+- The page has a different color scheme (dark dashboard on a light-mode product)
+- The page needs denser or more spacious spacing than the master
+- The page has unique component variants not used elsewhere
+
+Do **not** create a page override for:
+- Minor copy differences
+- Individual component states
+- One-off color tweaks that should be global tokens anyway

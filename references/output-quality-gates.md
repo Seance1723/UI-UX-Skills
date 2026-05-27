@@ -154,6 +154,78 @@ If a piece of content is a placeholder, it must **look** like a placeholder. Use
 
 ---
 
+## Part 5 — Code-Level AI Audit Error Codes
+
+When auditing or reviewing generated UI code (HTML, JSX, TSX, Vue, Svelte, etc.), flag issues using these standardized codes. Output one line per issue in format: `[severity] L[line] [CODE] [description]`.
+
+**Severity levels:** 🔴 Critical (blocks delivery) · 🟡 Warning (must fix before release) · 🔵 Info (best practice)
+
+### Tailwind / CSS Errors
+
+| Code | Severity | Pattern | Description |
+|------|----------|---------|-------------|
+| `AI001` | 🔴 | `bg-[${variable}]` | Tailwind class interpolation — purged at build, will not render |
+| `AI002` | 🔴 | `text-shadow-*` | Hallucinated Tailwind utility — no native text-shadow in core Tailwind |
+| `AI003` | 🔴 | `bg-gradient-[...]` with arbitrary | Arbitrary gradient shorthand not supported in all Tailwind versions |
+| `AI004` | 🟡 | `h-screen` | Causes layout shift on mobile with dynamic viewport — use `min-h-dvh` |
+| `AI005` | 🟡 | `drop-shadow-[...]` on text | Intended for elements, not text — use `text-shadow` via plugin |
+| `AI006` | 🟡 | `opacity-[val]` on parent with absolute children | Creates stacking context issues |
+| `AI007` | 🟡 | `overflow-hidden` on scroll container | Clips sticky children unintentionally |
+| `AI008` | 🟡 | Low-contrast semi-transparent text | `text-white/50` on white bg — passes visual but fails WCAG |
+| `AI009` | 🔵 | Missing `dark:` variant | Interactive element has no dark mode override |
+| `AI010` | 🔵 | `transition-all` | Too broad — prefer `transition-colors`, `transition-opacity` |
+
+### Accessibility Errors
+
+| Code | Severity | Pattern | Description |
+|------|----------|---------|-------------|
+| `AI011` | 🔴 | `<div onClick>` without `role` + `tabIndex` | Non-interactive element used as button — not keyboard accessible |
+| `AI012` | 🔴 | `<img>` missing `alt` | Images without alt text fail WCAG 1.1.1 |
+| `AI013` | 🔴 | `outline: none` / `outline: 0` without replacement | Removes focus visibility — keyboard navigation broken |
+| `AI014` | 🟡 | Icon-only button without `aria-label` | Screen readers announce nothing meaningful |
+| `AI015` | 🟡 | `target="_blank"` without `rel="noopener noreferrer"` | Security vulnerability + missing screen reader warning |
+| `AI016` | 🟡 | Form `<input>` without associated `<label>` | Not announced correctly by screen readers |
+| `AI017` | 🟡 | Color-only status indicator | Red/green badge without icon or text label |
+| `AI018` | 🔵 | Missing `lang` attribute on `<html>` | Screen readers default to wrong language |
+| `AI019` | 🔵 | Heading levels skipped (H1 → H3) | Broken document outline |
+
+### React / Framework Errors
+
+| Code | Severity | Pattern | Description |
+|------|----------|---------|-------------|
+| `AI020` | 🔴 | `key={index}` on dynamic list | Index as key causes reconciliation bugs on reorder/insert |
+| `AI021` | 🔴 | Direct state mutation `state.push(x)` | Bypasses React reactivity — UI won't update |
+| `AI022` | 🟡 | `useEffect` with empty dep array fetching data | Stale closure — deps should include all referenced values |
+| `AI023` | 🟡 | `useState` for server data | Use React Query / SWR / server state pattern |
+| `AI024` | 🟡 | Large component with 300+ lines | Split into smaller, focused components |
+| `AI025` | 🔵 | Missing `displayName` on forwardRef components | Debugger shows anonymous component |
+
+### Content / Copy Errors
+
+| Code | Severity | Pattern | Description |
+|------|----------|---------|-------------|
+| `AI026` | 🔴 | Invented metric without source | "10× faster", "99.9% uptime" without data — see Honest Placeholder Protocol |
+| `AI027` | 🔴 | Lorem ipsum in high-fidelity output | Placeholder in final deliverable |
+| `AI028` | 🟡 | "Click here" as link text | Not descriptive — fails WCAG 2.4.6 |
+| `AI029` | 🟡 | Error message without recovery action | "Invalid input" with no guidance on how to fix |
+| `AI030` | 🔵 | Generic CTA copy "Submit" / "Click" | Replace with action-outcome copy: "Create account", "Save changes" |
+
+### Audit Output Format
+
+```
+🔴 L5  [AI001] Tailwind class interpolation detected — bg-[${primaryColor}] will be purged
+🟡 L9  [AI005] Hallucinated utility class — "text-shadow-lg" does not exist in Tailwind core
+🟡 L12 [AI008] Low contrast pseudo-transparency — text-white/50 on white background
+🟡 L18 [AI004] h-screen causes layout shift on mobile — use min-h-dvh
+🟡 L21 [AI015] target="_blank" missing rel="noopener noreferrer" — security + accessibility
+🔵 L44 [AI009] Button has no dark: color variant defined
+
+SUMMARY: 1 critical, 4 warnings, 1 info
+→ Fix all 🔴 before delivery. Fix 🟡 before release.
+```
+
+---
+
 ## Quick Checklist (use before every emit)
 
 ```
