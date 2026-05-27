@@ -1,15 +1,11 @@
 # UI/UX Master
 
-[![npm version](https://img.shields.io/npm/v/ui-ux-master?logo=npm&label=npm)](https://www.
-npmjs.com/package/ui-ux-master)
-[![npm](https://img.shields.io/npm/v/ui-ux-master?logo=npm&label=v1.5.0&color=6366f1)](https://www.npmjs.com/package/ui-ux-master)
+[![npm version](https://img.shields.io/npm/v/ui-ux-master?logo=npm&label=npm&color=6366f1)](https://www.npmjs.com/package/ui-ux-master)
 [![downloads](https://img.shields.io/npm/dm/ui-ux-master?logo=npm&label=downloads&color=10b981)](https://www.npmjs.com/package/ui-ux-master)
 [![License: MIT](https://img.shields.io/npm/l/ui-ux-master?color=f59e0b)](https://github.com/Seance1723/UI-UX-Skills/blob/main/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![GitHub stars](https://img.shields.io/github/stars/Seance1723/UI-UX-Skills?style=flat&
-logo=github)](https://github.com/Seance1723/UI-UX-Skills/stargazers)
-[![Last commit](https://img.shields.io/github/last-commit/Seance1723/UI-UX-Skills?logo=github)]
-(https://github.com/Seance1723/UI-UX-Skills/commits/main)
+[![GitHub stars](https://img.shields.io/github/stars/Seance1723/UI-UX-Skills?style=flat&logo=github)](https://github.com/Seance1723/UI-UX-Skills/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/Seance1723/UI-UX-Skills?logo=github)](https://github.com/Seance1723/UI-UX-Skills/commits/main)
 
 **Turn your AI coding agent into a Senior Product Designer, UX Researcher, and Frontend Lead — in one command.**
 
