@@ -1,7 +1,7 @@
 {
-  "name": "ui-ux-master",
+  "name": "uxcraft",
   "version": "1.5.0",
-  "description": "Opt-in UI/UX master skill, CLI, and MCP server for AI coding agents, with accessibility, design-system, UX research, and frontend handoff workflows.",
+  "description": "Opt-in UXCraft skill, CLI, and MCP server for AI coding agents — accessibility, design systems, UX research, and frontend handoff in one workflow.",
   "type": "module",
   "packageManager": "npm@10.9.2",
   "main": "./index.cjs",
@@ -16,13 +16,15 @@
     "./package.json": "./package.json",
     "./skill": "./SKILL.md",
     "./llms": "./llms.txt",
-    "./manifest": "./ai-discovery/ui-ux-master.manifest.json",
-    "./cli": "./bin/ui-ux-master.mjs",
-    "./mcp": "./bin/ui-ux-master-mcp.mjs"
+    "./manifest": "./ai-discovery/uxcraft.manifest.json",
+    "./cli": "./bin/uxcraft.mjs",
+    "./mcp": "./bin/uxcraft-mcp.mjs"
   },
   "bin": {
-    "ui-ux-master": "./bin/ui-ux-master.mjs",
-    "ui-ux-master-mcp": "./bin/ui-ux-master-mcp.mjs"
+    "uxcraft": "./bin/uxcraft.mjs",
+    "uxcraft-mcp": "./bin/uxcraft-mcp.mjs",
+    "ui-ux-master": "./bin/uxcraft.mjs",
+    "ui-ux-master-mcp": "./bin/uxcraft-mcp.mjs"
   },
   "sideEffects": false,
   "files": [
@@ -48,8 +50,8 @@
     "validate": "python scripts/validate_skill.py --release",
     "validate:release": "python scripts/validate_skill.py --release",
     "build": "npm run check:syntax",
-    "check:syntax": "node --check index.mjs && node --check index.cjs && node --check bin/ui-ux-master.mjs && node --check bin/ui-ux-master-mcp.mjs",
-    "doctor": "node bin/ui-ux-master.mjs doctor --dry-run",
+    "check:syntax": "node --check index.mjs && node --check index.cjs && node --check bin/uxcraft.mjs && node --check bin/uxcraft-mcp.mjs",
+    "doctor": "node bin/uxcraft.mjs doctor --dry-run",
     "test": "npm run test:smoke",
     "test:smoke": "npm run check:syntax && npm run doctor",
     "test:node": "node --test tests/*.test.mjs",
@@ -60,6 +62,7 @@
     "build:zip": "python scripts/build_deployment_zip.py"
   },
   "keywords": [
+    "uxcraft",
     "ai",
     "ai-agent",
     "ai-agents",

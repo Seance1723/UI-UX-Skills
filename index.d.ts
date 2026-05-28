@@ -1,6 +1,6 @@
-export declare const name = "ui-ux-master";
+export declare const name = "uxcraft";
 export declare const version: string;
-export declare const trigger = "/ui-ux-master";
+export declare const trigger = "/uxcraft";
 
 export declare const bins: Readonly<{
   cli: string;

@@ -1,8 +1,8 @@
-# UI/UX Master
+# UXCraft
 
-[![npm version](https://img.shields.io/npm/v/ui-ux-master?logo=npm&label=npm&color=6366f1)](https://www.npmjs.com/package/ui-ux-master)
-[![downloads](https://img.shields.io/npm/dm/ui-ux-master?logo=npm&label=downloads&color=10b981)](https://www.npmjs.com/package/ui-ux-master)
-[![License: MIT](https://img.shields.io/npm/l/ui-ux-master?color=f59e0b)](https://github.com/Seance1723/UI-UX-Skills/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/uxcraft?logo=npm&label=npm&color=6366f1)](https://www.npmjs.com/package/uxcraft)
+[![downloads](https://img.shields.io/npm/dm/uxcraft?logo=npm&label=downloads&color=10b981)](https://www.npmjs.com/package/uxcraft)
+[![License: MIT](https://img.shields.io/npm/l/uxcraft?color=f59e0b)](https://github.com/Seance1723/UI-UX-Skills/blob/main/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![GitHub stars](https://img.shields.io/github/stars/Seance1723/UI-UX-Skills?style=flat&logo=github)](https://github.com/Seance1723/UI-UX-Skills/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/Seance1723/UI-UX-Skills?logo=github)](https://github.com/Seance1723/UI-UX-Skills/commits/main)
@@ -12,7 +12,7 @@
 One trigger. Every agent. Full design lifecycle from discovery to developer handoff.
 
 ```text
-/ui-ux-master build a SaaS landing page for my project management tool
+/uxcraft build a SaaS landing page for my project management tool
 ```
 
 ---
@@ -21,12 +21,14 @@ One trigger. Every agent. Full design lifecycle from discovery to developer hand
 
 ```bash
 # Recommended — project install
-npm install --save-dev ui-ux-master
-npx ui-ux-master install --project
+npm install --save-dev uxcraft
+npx uxcraft install --project
 
 # No install needed (one-time)
-npx ui-ux-master install --project
+npx uxcraft install --project
 ```
+
+> **Note:** `ui-ux-master` is a deprecated backward-compatible alias. Update to `uxcraft`.
 
 Works with **Claude**, **Windsurf**, **Cursor**, **Codex**, **Gemini**, and any agent that supports instruction files.
 
@@ -35,28 +37,28 @@ Works with **Claude**, **Windsurf**, **Cursor**, **Codex**, **Gemini**, and any 
 ## Quick Start — Try These
 
 ```text
-/ui-ux-master audit this dashboard for accessibility and give me fixes
+/uxcraft audit this dashboard for accessibility and give me fixes
 ```
 
 ```text
-/ui-ux-master design a checkout flow for my e-commerce app
+/uxcraft design a checkout flow for my e-commerce app
 ```
 
 ```text
-/ui-ux-master build a landing page for a healthcare startup
+/uxcraft build a landing page for a healthcare startup
 ```
 
 ```text
-/ui-ux-master create a full design system for this SaaS product
+/uxcraft create a full design system for this SaaS product
 ```
 
-> The skill only activates when you type `/ui-ux-master` — your normal coding workflow is untouched.
+> The skill only activates when you type `/uxcraft` — your normal coding workflow is untouched.
 
 ---
 
 ## What It Does
 
-| Without UI/UX Master | With UI/UX Master |
+| Without UXCraft | With UXCraft |
 |---|---|
 | Jumps straight to code | Discovery form first — brief, audience, and brand locked before design |
 | Generic colors and layout | Industry reasoning engine → instant Design System Block per product type |
@@ -101,29 +103,29 @@ Works with **Claude**, **Windsurf**, **Cursor**, **Codex**, **Gemini**, and any 
 
 | Agent | Trigger |
 |---|---|
-| Claude Code | `/ui-ux-master` (native slash command) |
-| Windsurf / Cascade | `/ui-ux-master` |
-| Cursor | `/ui-ux-master` |
-| Codex | `/ui-ux-master` |
-| Gemini CLI | `/ui-ux-master` |
-| Antigravity | `/ui-ux-master` |
+| Claude Code | `/uxcraft` (native slash command) |
+| Windsurf / Cascade | `/uxcraft` |
+| Cursor | `/uxcraft` |
+| Codex | `/uxcraft` |
+| Gemini CLI | `/uxcraft` |
+| Antigravity | `/uxcraft` |
 | Any other agent | Copy `agent-templates/universal/` into your instruction file |
-| MCP clients | Auto-discovered via `ui-ux-master-mcp` |
+| MCP clients | Auto-discovered via `uxcraft-mcp` |
 
 ---
 
 ## MCP Server
 
 ```bash
-npx -y --package ui-ux-master ui-ux-master-mcp
+npx -y --package uxcraft uxcraft-mcp
 ```
 
 ```json
 {
   "mcpServers": {
-    "ui-ux-master": {
+    "uxcraft": {
       "command": "npx",
-      "args": ["-y", "--package", "ui-ux-master", "ui-ux-master-mcp"]
+      "args": ["-y", "--package", "uxcraft", "uxcraft-mcp"]
     }
   }
 }
@@ -134,12 +136,12 @@ npx -y --package ui-ux-master ui-ux-master-mcp
 ## CLI Reference
 
 ```bash
-ui-ux-master install --project                             # install for current project
-ui-ux-master install --project --agents claude,windsurf   # specific agents only
-ui-ux-master install --project --dry-run                  # preview without writing
-ui-ux-master install --global                             # global install
-ui-ux-master doctor                                       # check install health
-ui-ux-master uninstall --project                          # remove
+uxcraft install --project                             # install for current project
+uxcraft install --project --agents claude,windsurf   # specific agents only
+uxcraft install --project --dry-run                  # preview without writing
+uxcraft install --global                             # global install
+uxcraft doctor                                       # check install health
+uxcraft uninstall --project                          # remove
 ```
 
 ---
@@ -183,7 +185,7 @@ ui-ux-master uninstall --project                          # remove
 ## Package Layout
 
 ```
-ui-ux-master/
+uxcraft/
 ├── SKILL.md                         main orchestration (steps 1–12)
 ├── references/
 │   ├── industry-reasoning-rules.md  15+ industry → instant design system
@@ -212,7 +214,7 @@ npm test
 npm pack --dry-run
 ```
 
-Expected output: `PASS: UI/UX skill package is valid`
+Expected output: `PASS: UXCraft skill package is valid`
 
 ---
 
@@ -227,7 +229,7 @@ Expected output: `PASS: UI/UX skill package is valid`
 
 ## Competitive Positioning
 
-UI/UX Master combines what every competitor does best into one opt-in, daemon-free, cross-agent skill:
+UXCraft combines what every competitor does best into one opt-in, daemon-free, cross-agent skill:
 
 - **Discovery-first** — no visuals until brief is locked (beats generic prompt packs)
 - **Industry reasoning engine** — instant Design System Block per product type (matches `ui-ux-pro-max-skill`)
@@ -247,7 +249,7 @@ See `references/competitive-landscape.md` for the full analysis.
 - [ ] `python scripts/validate_skill.py --release` passes
 - [ ] `npm test` passes
 - [ ] `npm pack --dry-run` contains only intended files
-- [ ] `ui-ux-master install --project --dry-run` works
+- [ ] `uxcraft install --project --dry-run` works
 - [ ] No `node_modules`, `.pyc`, secrets, or local paths in package
 
 ---

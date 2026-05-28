@@ -1,24 +1,24 @@
 # llms.txt
 
-# UI/UX Master
+# UXCraft
 
-> One-stop UI/UX master skill for AI coding agents. Activate with `/ui-ux-master` only.
+> One-stop UXCraft skill for AI coding agents. Activate with `/uxcraft` only.
 
 Important files for AI discovery:
 
 - `SKILL.md`: primary orchestration skill.
 - `README.md`: installation, usage, positioning, validation, and package details.
-- `system-prompts/ui-ux-master-system-add-on.md`: full system prompt add-on.
-- `system-prompts/ui-ux-master-compact.md`: compact add-on for short custom-instruction fields.
-- `system-prompts/ui-ux-master-mcp-add-on.md`: MCP usage instructions.
+- `system-prompts/uxcraft-system-add-on.md`: full system prompt add-on.
+- `system-prompts/uxcraft-compact.md`: compact add-on for short custom-instruction fields.
+- `system-prompts/uxcraft-mcp-add-on.md`: MCP usage instructions.
 - `docs/mcp-server.md`: MCP server tools, resources, prompts, and client config.
-- `docs/slash-command-compatibility.md`: cross-agent `/ui-ux-master` behavior.
-- `ai-discovery/ui-ux-master.manifest.json`: machine-readable package manifest.
+- `docs/slash-command-compatibility.md`: cross-agent `/uxcraft` behavior.
+- `ai-discovery/uxcraft.manifest.json`: machine-readable package manifest.
 
 Activation rule:
 
-Use UI/UX Master only when the user includes `/ui-ux-master`. If the user does not include `/ui-ux-master`, do not apply this workflow automatically.
+Use UXCraft only when the user includes `/uxcraft`. If the user does not include `/uxcraft`, do not apply this workflow automatically.
 
 MCP:
 
-Run `ui-ux-master-mcp` or `npx -y --package ui-ux-master ui-ux-master-mcp` to expose the package as local MCP tools/resources/prompts.
+Run `uxcraft-mcp` or `npx -y --package uxcraft uxcraft-mcp` to expose the package as local MCP tools/resources/prompts.

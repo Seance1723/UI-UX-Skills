@@ -1,12 +1,12 @@
-# UI/UX Master MCP Server
+# UXCraft MCP Server
 
-UI/UX Master includes a local MCP server so AI clients can discover the skill automatically as tools, resources, and reusable prompts.
+UXCraft includes a local MCP server so AI clients can discover the skill automatically as tools, resources, and reusable prompts.
 
 ## Why MCP Matters
 
-MCP lets compatible AI clients discover local capabilities without relying only on human-readable README files. Project installs also copy the same assets into `.ui-ux-master/`, so MCP clients and text-trigger agents can both find the same source of truth. With this package, agents can:
+MCP lets compatible AI clients discover local capabilities without relying only on human-readable README files. Project installs also copy the same assets into `.uxcraft/`, so MCP clients and text-trigger agents can both find the same source of truth. With this package, agents can:
 
-- list UI/UX Master tools;
+- list UXCraft tools;
 - read the main skill and references as MCP resources;
 - retrieve system prompt add-ons;
 - generate project memory templates;
@@ -18,13 +18,13 @@ MCP lets compatible AI clients discover local capabilities without relying only 
 After global install:
 
 ```bash
-ui-ux-master-mcp
+uxcraft-mcp
 ```
 
 Without global install:
 
 ```bash
-npx -y --package ui-ux-master ui-ux-master-mcp
+npx -y --package uxcraft uxcraft-mcp
 ```
 
 The server communicates over stdio using JSON-RPC/MCP-compatible methods.
@@ -34,9 +34,9 @@ The server communicates over stdio using JSON-RPC/MCP-compatible methods.
 ```json
 {
   "mcpServers": {
-    "ui-ux-master": {
+    "uxcraft": {
       "command": "npx",
-      "args": ["-y", "--package", "ui-ux-master", "ui-ux-master-mcp"]
+      "args": ["-y", "--package", "uxcraft", "uxcraft-mcp"]
     }
   }
 }
@@ -46,9 +46,9 @@ The server communicates over stdio using JSON-RPC/MCP-compatible methods.
 
 ```yaml
 mcp_servers:
-  ui_ux_master:
+  uxcraft:
     command: "npx"
-    args: ["-y", "--package", "ui-ux-master", "ui-ux-master-mcp"]
+    args: ["-y", "--package", "uxcraft", "uxcraft-mcp"]
 ```
 
 Restart the agent after adding the config so it can discover the tools.
@@ -68,22 +68,22 @@ Restart the agent after adding the config so it can discover the tools.
 
 | URI | Content |
 |---|---|
-| `ui-ux-master://skill` | Main skill. |
-| `ui-ux-master://readme` | README. |
-| `ui-ux-master://llms` | AI discovery text. |
-| `ui-ux-master://manifest` | Machine-readable AI manifest. |
-| `ui-ux-master://system-prompt` | Full system prompt add-on. |
-| `ui-ux-master://compact-prompt` | Compact system prompt add-on. |
-| `ui-ux-master://mcp-prompt` | MCP-focused prompt add-on. |
-| `ui-ux-master://mcp-docs` | This document. |
-| `ui-ux-master://checklist` | Complete UI/UX checklist. |
-| `ui-ux-master://memory-template` | UI/UX memory template. |
+| `uxcraft://skill` | Main skill. |
+| `uxcraft://readme` | README. |
+| `uxcraft://llms` | AI discovery text. |
+| `uxcraft://manifest` | Machine-readable AI manifest. |
+| `uxcraft://system-prompt` | Full system prompt add-on. |
+| `uxcraft://compact-prompt` | Compact system prompt add-on. |
+| `uxcraft://mcp-prompt` | MCP-focused prompt add-on. |
+| `uxcraft://mcp-docs` | This document. |
+| `uxcraft://checklist` | Complete UI/UX checklist. |
+| `uxcraft://memory-template` | UI/UX memory template. |
 
 ## Prompts
 
 | Prompt | Purpose |
 |---|---|
-| `ui-ux-master` | Activate the full workflow for a normal UI/UX task. |
+| `uxcraft` | Activate the full UXCraft workflow for a normal UI/UX task. |
 | `ui-ux-audit` | Audit a screen, product, flow, URL, or component. |
 | `ui-ux-redesign` | Redesign a product area with handoff-ready output. |
 | `ui-ux-design-system` | Create or extend tokens, components, governance, and QA. |
@@ -92,7 +92,7 @@ Restart the agent after adding the config so it can discover the tools.
 ## Manual Smoke Test
 
 ```bash
-printf '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{}}\n{"jsonrpc":"2.0","id":2,"method":"tools/list","params":{}}\n' | node bin/ui-ux-master-mcp.mjs
+printf '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{}}\n{"jsonrpc":"2.0","id":2,"method":"tools/list","params":{}}\n' | node bin/uxcraft-mcp.mjs
 ```
 
 Expected output: JSON-RPC responses containing server info and a tools array.
@@ -103,4 +103,4 @@ The MCP server is read-only. It exposes package content and generated prompt tex
 
 ## Activation Reminder
 
-Even through MCP, UI/UX Master remains opt-in. Use the workflow only when the user includes `/ui-ux-master` or explicitly asks to use UI/UX Master.
+Even through MCP, UXCraft remains opt-in. Use the workflow only when the user includes `/uxcraft` or explicitly asks to use UXCraft.

@@ -7,7 +7,7 @@ import tempfile
 import zipfile
 
 src = Path(__file__).resolve().parents[1]
-out = src.parent / "ui-ux-master-deployment.zip"
+out = src.parent / "uxcraft-deployment.zip"
 if out.exists():
     out.unlink()
 exclude_dirs = {".git", "graphify-out", "__pycache__", "node_modules", "coverage", ".nyc_output"}
@@ -24,13 +24,13 @@ with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
         if path.name in exclude_names or path.name.startswith("npm-debug.log"):
             continue
         if path.is_file():
-            z.write(path, Path("ui-ux-master") / rel)
+            z.write(path, Path("uxcraft") / rel)
 
 print(out)
 with tempfile.TemporaryDirectory() as td:
     with zipfile.ZipFile(out) as z:
         z.extractall(td)
-    pkg = Path(td) / "ui-ux-master"
+    pkg = Path(td) / "uxcraft"
     res = subprocess.run(
         [sys.executable, "scripts/validate_skill.py", "--release"],
         cwd=pkg,

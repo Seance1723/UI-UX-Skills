@@ -1,5 +1,5 @@
 ---
-name: ui-ux-master
+name: uxcraft
 description: "Use when an agent must design, audit, improve, prototype, specify, or hand off any UI/UX work end-to-end. Provides one-stop UX strategy, research, IA, flows, wireframes, visual design, design systems, accessibility, usability testing, conversion, and engineering handoff workflows."
 version: 1.5.0
 author: Rupak Biswas
@@ -21,20 +21,20 @@ The job is not only to make screens look good. The job is to solve the user's go
 
 ## Cross-Agent Activation
 
-This skill is opt-in. In Codex, Claude, Windsurf, Antigravity, Gemini, Cursor, and other agents, activate it only when the user includes `/ui-ux-master` in the prompt or invokes the installed native slash command. If the user does not mention `/ui-ux-master`, do not apply this skill automatically.
+This skill is opt-in. In Codex, Claude, Windsurf, Antigravity, Gemini, Cursor, and other agents, activate it only when the user includes `/uxcraft` in the prompt or invokes the installed native slash command. If the user does not mention `/uxcraft`, do not apply this skill automatically.
 
-When activated, the user can write naturally, for example: `/ui-ux-master audit this checkout flow` or `/ui-ux-master design a premium SaaS landing page`. Treat the rest of the prompt as the task and follow this SKILL.md plus the referenced files.
+When activated, the user can write naturally, for example: `/uxcraft audit this checkout flow` or `/uxcraft design a premium SaaS landing page`. Treat the rest of the prompt as the task and follow this SKILL.md plus the referenced files.
 
 ## AI Discovery and MCP
 
 This package exposes the workflow through human-readable instructions and machine-readable discovery assets:
 
 - `llms.txt` gives AI agents a short map of the package.
-- `ai-discovery/ui-ux-master.manifest.json` describes activation, entrypoints, tools, resources, prompts, and supported agents.
+- `ai-discovery/uxcraft.manifest.json` describes activation, entrypoints, tools, resources, prompts, and supported agents.
 - `system-prompts/` contains full, compact, and MCP-focused system prompt add-ons.
-- `bin/ui-ux-master-mcp.mjs` runs a local read-only MCP server that exposes UI/UX Master tools, resources, and prompts.
+- `bin/uxcraft-mcp.mjs` runs a local read-only MCP server that exposes UXCraft tools, resources, and prompts.
 
-Use MCP and system prompt add-ons only as discovery/activation layers. The workflow remains opt-in and should still require `/ui-ux-master` unless the user explicitly asks to use UI/UX Master.
+Use MCP and system prompt add-ons only as discovery/activation layers. The workflow remains opt-in and should still require `/uxcraft` unless the user explicitly asks to use UXCraft.
 
 ## Core Operating Rule
 
@@ -758,16 +758,16 @@ Use the supporting files in this skill folder when useful:
 - `references/accessibility-advanced-patterns.md` — complex widget accessibility and screen-reader test matrix.
 - `references/ui-ux-curriculum-and-standards.md` — basic-to-advanced UI/UX curriculum and standards map.
 - `references/competitive-landscape.md` — competitor gaps and strategy for staying ahead.
-- `docs/slash-command-compatibility.md` — cross-agent `/ui-ux-master` trigger compatibility.
+- `docs/slash-command-compatibility.md` — cross-agent `/uxcraft` trigger compatibility.
 - `docs/mcp-server.md` — MCP tools, resources, prompts, client configs, and smoke testing.
 - `llms.txt` — AI-readable package map for discovery by agents and indexing tools.
-- `ai-discovery/ui-ux-master.manifest.json` — machine-readable manifest for activation, entrypoints, MCP, and capabilities.
-- `system-prompts/ui-ux-master-system-add-on.md` — full system prompt add-on.
-- `system-prompts/ui-ux-master-compact.md` — compact system prompt add-on.
-- `system-prompts/ui-ux-master-mcp-add-on.md` — MCP-focused system prompt add-on.
+- `ai-discovery/uxcraft.manifest.json` — machine-readable manifest for activation, entrypoints, MCP, and capabilities.
+- `system-prompts/uxcraft-system-add-on.md` — full system prompt add-on.
+- `system-prompts/uxcraft-compact.md` — compact system prompt add-on.
+- `system-prompts/uxcraft-mcp-add-on.md` — MCP-focused system prompt add-on.
 - `agent-templates/` — Claude, Codex, Windsurf, Antigravity, Gemini, Cursor, and universal installer templates.
-- `bin/ui-ux-master.mjs` — npm CLI installer.
-- `bin/ui-ux-master-mcp.mjs` — local read-only MCP server.
+- `bin/uxcraft.mjs` — npm CLI installer.
+- `bin/uxcraft-mcp.mjs` — local read-only MCP server.
 - `templates/ui-ux-brief.md` — intake and requirements template.
 - `templates/ui-ux-memory.md` — project UI/UX memory file template to copy into an application root as `.ui-ux-memory.md`.
 - `templates/ui-ux-audit-report.md` — audit output template.

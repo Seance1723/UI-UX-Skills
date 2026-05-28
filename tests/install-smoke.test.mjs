@@ -11,18 +11,18 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const require = createRequire(import.meta.url);
 const root = path.resolve(__dirname, '..');
-const bin = path.join(root, 'bin', 'ui-ux-master.mjs');
-const mcpBin = path.join(root, 'bin', 'ui-ux-master-mcp.mjs');
+const bin = path.join(root, 'bin', 'uxcraft.mjs');
+const mcpBin = path.join(root, 'bin', 'uxcraft-mcp.mjs');
 const pkg = JSON.parse(fs.readFileSync(path.join(root, 'package.json'), 'utf8'));
 
 const templates = [
-  'agent-templates/claude/commands/ui-ux-master.md',
-  'agent-templates/universal/ui-ux-master-trigger.md',
+  'agent-templates/claude/commands/uxcraft.md',
+  'agent-templates/universal/uxcraft-trigger.md',
   'agent-templates/codex/AGENTS.append.md',
-  'agent-templates/windsurf/rules/ui-ux-master.md',
+  'agent-templates/windsurf/rules/uxcraft.md',
   'agent-templates/antigravity/AGENTS.append.md',
   'agent-templates/gemini/GEMINI.append.md',
-  'agent-templates/cursor/rules/ui-ux-master.mdc',
+  'agent-templates/cursor/rules/uxcraft.mdc',
 ];
 
 function run(args, cwd = root) {
@@ -52,8 +52,8 @@ function runMcp(messages) {
 
 test('package exposes cli and mcp bins with Rupak Biswas author', () => {
   assert.equal(pkg.author, 'Rupak Biswas');
-  assert.equal(pkg.bin['ui-ux-master'], './bin/ui-ux-master.mjs');
-  assert.equal(pkg.bin['ui-ux-master-mcp'], './bin/ui-ux-master-mcp.mjs');
+  assert.equal(pkg.bin['uxcraft'], './bin/uxcraft.mjs');
+  assert.equal(pkg.bin['uxcraft-mcp'], './bin/uxcraft-mcp.mjs');
 
   assert.ok(fs.existsSync(bin));
   assert.ok(fs.existsSync(mcpBin));
@@ -67,13 +67,13 @@ test('package metadata APIs work from ESM and CommonJS entrypoints', async () =>
   const cjs = require(path.join(root, 'index.cjs'));
 
   for (const api of [esm, cjs]) {
-    assert.equal(api.name, 'ui-ux-master');
+    assert.equal(api.name, 'uxcraft');
     assert.equal(api.version, pkg.version);
-    assert.equal(api.trigger, '/ui-ux-master');
+    assert.equal(api.trigger, '/uxcraft');
     assert.equal(api.bins.cli, bin);
     assert.equal(api.bins.mcp, mcpBin);
     assert.equal(api.assetPath('skill'), path.join(root, 'SKILL.md'));
-    assert.throws(() => api.assetPath('missing'), /Unknown ui-ux-master asset/);
+    assert.throws(() => api.assetPath('missing'), /Unknown uxcraft asset/);
   }
 });
 
@@ -81,9 +81,9 @@ test('agent templates include trigger and avoid local absolute paths', () => {
   for (const rel of templates) {
     const text = fs.readFileSync(path.join(root, rel), 'utf8');
 
-    assert.match(text, /\/ui-ux-master/);
-    assert.match(text, /\.ui-ux-master\/SKILL\.md|\.ui-ux-master\/|\.ui-ux-master/);
-    assert.match(text, /UI\/UX|ui-ux-master/i);
+    assert.match(text, /\/uxcraft/);
+    assert.match(text, /\.uxcraft\/SKILL\.md|\.uxcraft\/|\.uxcraft/);
+    assert.match(text, /UXCraft|uxcraft/i);
     assert.doesNotMatch(text, /C:\\|C:\/xampp|C:\/Users|\/workspace/);
   }
 });
@@ -91,40 +91,40 @@ test('agent templates include trigger and avoid local absolute paths', () => {
 test('discovery assets and system prompts exist', () => {
   const required = [
     'llms.txt',
-    'ai-discovery/ui-ux-master.manifest.json',
-    'system-prompts/ui-ux-master-system-add-on.md',
-    'system-prompts/ui-ux-master-compact.md',
-    'system-prompts/ui-ux-master-mcp-add-on.md',
+    'ai-discovery/uxcraft.manifest.json',
+    'system-prompts/uxcraft-system-add-on.md',
+    'system-prompts/uxcraft-compact.md',
+    'system-prompts/uxcraft-mcp-add-on.md',
     'docs/mcp-server.md',
   ];
 
   for (const rel of required) {
     const text = fs.readFileSync(path.join(root, rel), 'utf8');
-    assert.match(text, /\/ui-ux-master/);
+    assert.match(text, /\/uxcraft/);
   }
 
   const manifest = JSON.parse(
-    fs.readFileSync(path.join(root, 'ai-discovery/ui-ux-master.manifest.json'), 'utf8')
+    fs.readFileSync(path.join(root, 'ai-discovery/uxcraft.manifest.json'), 'utf8')
   );
 
   assert.equal(manifest.author, 'Rupak Biswas');
-  assert.equal(manifest.activation.trigger, '/ui-ux-master');
-  assert.equal(manifest.entrypoints.mcp_server_bin, 'ui-ux-master-mcp');
+  assert.equal(manifest.activation.trigger, '/uxcraft');
+  assert.equal(manifest.entrypoints.mcp_server_bin, 'uxcraft-mcp');
 });
 
 test('cli help doctor and where work', () => {
   const help = run(['--help']);
-  assert.match(help, /ui-ux-master/i);
+  assert.match(help, /uxcraft/i);
 
   const doctor = run(['doctor', '--dry-run']);
   assert.match(doctor, /package root|target root|ok SKILL\.md/i);
 
   const where = run(['where']);
-  assert.match(where.trim(), /UI[-\s]UX[-\s]Skills|ui-ux-master/i);
+  assert.match(where.trim(), /UI[-\s]UX[-\s]Skills|uxcraft/i);
 });
 
 test('project install dry-run does not write', () => {
-  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'ui-ux-master-dry-'));
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'uxcraft-dry-'));
   fs.writeFileSync(path.join(dir, 'package.json'), '{}');
 
   const out = run(['install', '--project', '--dry-run', '--dir', dir]);
@@ -134,28 +134,28 @@ test('project install dry-run does not write', () => {
 });
 
 test('project install writes expected files and is idempotent', () => {
-  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'ui-ux-master-install-'));
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'uxcraft-install-'));
   fs.writeFileSync(path.join(dir, 'package.json'), '{}');
 
   run(['install', '--project', '--dir', dir]);
   run(['install', '--project', '--dir', dir]);
 
-  assert.ok(fs.existsSync(path.join(dir, '.ui-ux-master', 'SKILL.md')));
-  assert.ok(fs.existsSync(path.join(dir, '.ui-ux-master', 'llms.txt')));
-  assert.ok(fs.existsSync(path.join(dir, '.ui-ux-master', 'ai-discovery', 'ui-ux-master.manifest.json')));
-  assert.ok(fs.existsSync(path.join(dir, '.ui-ux-master', 'system-prompts', 'ui-ux-master-system-add-on.md')));
-  assert.ok(fs.existsSync(path.join(dir, '.ui-ux-master', 'references', 'ui-ux-memory-workflow.md')));
-  assert.ok(fs.existsSync(path.join(dir, '.ui-ux-master', 'templates', 'ui-ux-memory.md')));
-  assert.ok(fs.existsSync(path.join(dir, '.claude', 'commands', 'ui-ux-master.md')));
+  assert.ok(fs.existsSync(path.join(dir, '.uxcraft', 'SKILL.md')));
+  assert.ok(fs.existsSync(path.join(dir, '.uxcraft', 'llms.txt')));
+  assert.ok(fs.existsSync(path.join(dir, '.uxcraft', 'ai-discovery', 'uxcraft.manifest.json')));
+  assert.ok(fs.existsSync(path.join(dir, '.uxcraft', 'system-prompts', 'uxcraft-system-add-on.md')));
+  assert.ok(fs.existsSync(path.join(dir, '.uxcraft', 'references', 'ui-ux-memory-workflow.md')));
+  assert.ok(fs.existsSync(path.join(dir, '.uxcraft', 'templates', 'ui-ux-memory.md')));
+  assert.ok(fs.existsSync(path.join(dir, '.claude', 'commands', 'uxcraft.md')));
   assert.ok(fs.existsSync(path.join(dir, 'AGENTS.md')));
-  assert.ok(fs.existsSync(path.join(dir, '.windsurf', 'rules', 'ui-ux-master.md')));
+  assert.ok(fs.existsSync(path.join(dir, '.windsurf', 'rules', 'uxcraft.md')));
   assert.ok(fs.existsSync(path.join(dir, 'GEMINI.md')));
 
   const agents = fs.readFileSync(path.join(dir, 'AGENTS.md'), 'utf8');
 
-  assert.equal((agents.match(/ui-ux-master:start/g) || []).length, 1);
-  assert.match(agents, /\.ui-ux-master\/SKILL\.md/);
-  assert.match(agents, /\/ui-ux-master/);
+  assert.equal((agents.match(/uxcraft:start/g) || []).length, 1);
+  assert.match(agents, /\.uxcraft\/SKILL\.md/);
+  assert.match(agents, /\/uxcraft/);
 });
 
 test('mcp server lists tools resources prompts and can return the skill', () => {
@@ -177,10 +177,10 @@ test('mcp server lists tools resources prompts and can return the skill', () => 
     },
   ]);
 
-  assert.equal(responses[0].result.serverInfo.name, 'ui-ux-master');
+  assert.equal(responses[0].result.serverInfo.name, 'uxcraft');
   assert.ok(responses[1].result.tools.some(t => t.name === 'generate_system_prompt'));
-  assert.ok(responses[2].result.resources.some(r => r.uri === 'ui-ux-master://skill'));
-  assert.ok(responses[2].result.resources.some(r => r.uri === 'ui-ux-master://memory-template'));
+  assert.ok(responses[2].result.resources.some(r => r.uri === 'uxcraft://skill'));
+  assert.ok(responses[2].result.resources.some(r => r.uri === 'uxcraft://memory-template'));
   assert.ok(responses[3].result.prompts.some(p => p.name === 'ui-ux-audit'));
   assert.match(responses[4].result.content[0].text, /Activation Rule/);
 });
@@ -206,7 +206,7 @@ test('mcp server handles prompt retrieval and unknown methods correctly', () => 
     },
   ]);
 
-  assert.match(responses[0].result.messages[0].content.text, /\/ui-ux-master/);
+  assert.match(responses[0].result.messages[0].content.text, /\/uxcraft/);
   assert.match(responses[0].result.messages[0].content.text, /admin dashboard/);
   assert.equal(responses[1].error.code, -32601);
 });

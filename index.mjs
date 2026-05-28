@@ -6,25 +6,25 @@ const packageRoot = path.dirname(fileURLToPath(import.meta.url));
 const _require = createRequire(import.meta.url);
 const _pkg = _require('./package.json');
 
-export const name = 'ui-ux-master';
+export const name = 'uxcraft';
 export const version = _pkg.version;
-export const trigger = '/ui-ux-master';
+export const trigger = '/uxcraft';
 
 export const bins = Object.freeze({
-  cli: path.join(packageRoot, 'bin', 'ui-ux-master.mjs'),
-  mcp: path.join(packageRoot, 'bin', 'ui-ux-master-mcp.mjs'),
+  cli: path.join(packageRoot, 'bin', 'uxcraft.mjs'),
+  mcp: path.join(packageRoot, 'bin', 'uxcraft-mcp.mjs'),
 });
 
 export const assets = Object.freeze({
   skill: path.join(packageRoot, 'SKILL.md'),
   readme: path.join(packageRoot, 'README.md'),
   llms: path.join(packageRoot, 'llms.txt'),
-  manifest: path.join(packageRoot, 'ai-discovery', 'ui-ux-master.manifest.json'),
+  manifest: path.join(packageRoot, 'ai-discovery', 'uxcraft.manifest.json'),
 });
 
 export function assetPath(name) {
   if (!Object.hasOwn(assets, name)) {
-    throw new Error(`Unknown ui-ux-master asset: ${name}`);
+    throw new Error(`Unknown uxcraft asset: ${name}`);
   }
   return assets[name];
 }
