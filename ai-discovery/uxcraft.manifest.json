@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "name": "uxcraft",
   "title": "UXCraft",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "author": "Rupak Biswas",
   "description": "One-stop UXCraft skill for AI agents with opt-in /uxcraft activation, system prompt add-ons, project-local skill assets, and local MCP discovery.",
   "activation": {

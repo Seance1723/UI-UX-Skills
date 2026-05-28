@@ -1,6 +1,6 @@
 {
   "name": "uxcraft",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "Opt-in UXCraft skill, CLI, and MCP server for AI coding agents — accessibility, design systems, UX research, and frontend handoff in one workflow.",
   "type": "module",
   "packageManager": "npm@10.9.2",
@@ -113,7 +113,8 @@
   "homepage": "https://github.com/Seance1723/UI-UX-Skills#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Seance1723/UI-UX-Skills.git"
+    "url": "git+https://github.com/Seance1723/UI-UX-Skills.git",
+    "directory": "."
   },
   "bugs": {
     "url": "https://github.com/Seance1723/UI-UX-Skills/issues"

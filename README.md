@@ -72,6 +72,11 @@ Works with **Claude**, **Windsurf**, **Cursor**, **Codex**, **Gemini**, and any 
 
 ## What's New
 
+### v1.5.2 — Source provenance fix *(May 2026)*
+
+- Added npm provenance (`publishConfig.provenance`) for socket.dev source verification
+- Added `repository.directory` field for correct package-to-repo linking
+
 ### v1.5.1 — Rebranded to UXCraft *(May 2026)*
 
 - Package renamed from `ui-ux-master` to `uxcraft`
